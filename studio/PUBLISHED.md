@@ -45,3 +45,9 @@ Pace (2026-11-07 Mom 5 min): 21.5 s, 8 short lines, 16 shots (cut every 0.7-2.5 
 - voices: ElevenLabs eleven_v4, Kalu = Roger (relaxed/deadpan, normal speed, atempo 1.0), Battery = Armaan; Devanagari; BGM sunny; no retakes needed (burst check clean, Kalu ~4.3 syl/s)
 - credits: 202 used (28,784 of 30,234 left, resets about 2026-12-08)
 - pace: 28.3 s, 7 lines, ~10 shots (cut on every line, 1-3 s), 4.7 s picture insert for the science, final wider push-in for the mosquito-visits-Kalu gag, abrupt end on Kalu's sip (loops to the opening contrast). Research: Composio wallet still empty (scrapecreators failed for credits); used web search.
+
+## 2026-11-15 — Kalu–Battery breakup reel "Tag your kaalu dost" (flat KP-style 2D, 14 s, final sheet v26) [channel: Instagram, account mai_kaala_hu]
+- media 18102607862401493, caption "Tag your kaalu dost 😂🖤" + #relatable #desihumor #indianreels #funnyreels #breakup
+- script (owner's): K "bhai vo mujhe chhod ke kyun gayi" / B "chhod yaar" / B "jaane de usko" / K "par bhai meri galti kya thi" / B "jaane de usko" / K "par maine kiya kya......" / B "tu kaala hai laude! tu kaala hai!"
+- ElevenLabs v4 voices (Kalu Chris, Battery Armaan), audio-driven mouth overlay on 3 Flow stills; source studio/episodes/2026-11-15-breakup
+- insights to read 24-48 h later
