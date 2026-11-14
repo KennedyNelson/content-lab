@@ -1,0 +1,23 @@
+<html><body style="margin:0;background:#FBF3E4"><svg id=s xmlns="http://www.w3.org/2000/svg" width="2000" height="3650" viewBox="0 0 2000 3650"></svg>
+<script src=lib.js></script><script src=chars.js></script><script src=body.js></script><script>
+const {CH,head}=CH_,{figure}=BODY_;let o='';
+const T=(x,y,t,sz=26,b=0,c='#2b1a12')=>`<text x="${x}" y="${y}" font-family="Arial,sans-serif" font-size="${sz}" font-weight="${b?700:400}" fill="${c}">${t}</text>`;
+o+=T(60,80,'KALU & BATTERY — vector character sheet',54,1)+T(60,122,'Chibi proportions (≈3.5 heads) · soft skin shade on one side · thin dark outline · no freckles · no text on clothes',24,0,'#555');
+function row(k,y,title,lines){o+=T(60,y,title,40,1);lines.forEach((l,i)=>o+=T(60,y+36+i*28,l,23,0,'#555'));['front','q','side','back'].forEach((v,i)=>{o+=figure(CH[k],260+i*480,y+660,.95,{view:v});o+=T(230+i*480,y+715,v==='q'?'3/4':v,26,0,'#666')})}
+row('kalu',190,'KALU',['Dark brown skin · wavy black mullet (faded sides, falls past the neck) · closed friendly smile','Black sleeveless tee, snug crew neck · black wide-leg trackpants with white side stripes · black sneakers, white soles']);
+row('battery',1000,'BATTERY',['Light brown skin · short textured black hair with faded sides · full beard + moustache · round black glasses','Bright blue sleeveless tee, snug crew neck · same black striped trackpants · white sneakers']);
+const KE=[['smile',{}],['talking',{mouth:'talk'}],['shock',{shock:1,mouth:'o',bu:12}],['smug',{mouth:'smirk',lid:.35}],['angry',{mouth:'grit',lidAng:.35,ba:.3}],['laugh',{mouth:'laugh',bu:6}]];
+const BE=[['smile',{}],['talking',{mouth:'talk'}],['scared',{shock:1,mouth:'o',sweat:1,bu:12}],['thinking',{mouth:'flat',look:[1,-1]}],['sad',{mouth:'sad',ba:-.35}],['laugh',{mouth:'laugh',bu:6}]];
+function exps(k,y,list,title){o+=T(60,y,title,34,1);list.forEach(([n,e],i)=>{o+=`<g transform="translate(${190+i*320},${y+190}) scale(1.35)">${head(CH[k],e)}</g>`+T(120+i*320,y+330,n,24,0,'#666')})}
+exps('kalu',1830,KE,'Kalu expressions');exps('battery',2210,BE,'Battery expressions');
+o+=T(60,2620,'TOGETHER — childhood best friends',40,1);
+const K=CH.kalu,B=CH.battery,sy=-352;
+const up=d=>({R:[[62,sy+26],[116,sy+58],[112,sy-34]],Lf:[[-62,sy+26],[-116,sy+58],[-112,sy-34]]});
+o+=figure(K,420,3380,1.05,{view:'front',mouth:'laugh',bu:6,arms:up(),hang:180});
+o+=figure(B,900,3380,1.05,{view:'q',shock:1,mouth:'o',sweat:1,bu:12});
+o+=figure(K,1380,3380,1.05,{view:'q',mouth:'smirk',lid:.35});
+o+=figure(B,1760,3380,1.05,{view:'q',mouth:'talk'});
+o+=T(60,3560,'Palette — Kalu: skin #5E3A24 · hair #14100F · tee #18181C · trackpants #1B1B20 / stripes #F4F4F4 · sneakers #1E1E22 / sole #F1EFEA',22,0,'#555');
+o+=T(60,3596,'Battery: skin #C99565 · hair #17110F · beard #241812 · glasses #101012 · tee #2F80DB · trackpants #1B1B20 / stripes #F4F4F4 · sneakers #F6F6F4',22,0,'#555');
+document.getElementById('s').innerHTML=o;
+</script></body></html>

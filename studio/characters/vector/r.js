@@ -1,0 +1,1 @@
+const {chromium}=require('playwright');(async()=>{const b=await chromium.launch(),p=await b.newPage({viewport:{width:+process.argv[3]||2000,height:+process.argv[4]||2700}});p.on('pageerror',e=>console.log('ERR',e.message));await p.goto('file:///tmp/claude-0/v5/'+process.argv[2]+'.html');await p.screenshot({path:process.argv[2]+'.png'});await b.close()})()
