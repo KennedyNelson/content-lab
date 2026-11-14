@@ -10,3 +10,6 @@ Vector rebuild: `vector/` (lib.js, chars.js, body.js; open sheet.html to render,
 - Kalu: dark brown skin, spiky quiff + shoulder-length mullet, small lively eyes, thin brows, royal blue tee, loose plain black trackpants, black sneakers
 - Battery: fair skin, thick rectangular black glasses, neat short side-parted black hair with skin-coloured faded sides, emerald green tee, plain black trackpants, white sneakers
 - open mouth: thin black outline, dark maroon inside, white teeth along the top, pink tongue at the bottom (as on the sheet)
+
+## Priya (Kalu's fiancée / girl lead, locked 2026-11-15): priya-final-v2.jpg
+- same flat basic 2D design language as Kalu & Battery; fair-wheatish skin, long black braid over shoulder, small bindi and earrings, pink kurti, cream dupatta, white churidar, flat sandals; open mouth = thin black outline, maroon inside, white teeth, pink tongue
