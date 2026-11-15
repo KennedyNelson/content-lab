@@ -57,3 +57,9 @@ Pace (2026-11-07 Mom 5 min): 21.5 s, 8 short lines, 16 shots (cut every 0.7-2.5 
 - script (owner's): K "achha ye bataiye, aap gaali wali to nahi bakti na?" / P "arre nahi nahi, main seedhi saadi hoon" / P "aap chai piyoge?" / K "bilkul piyunga" / P "oye jhaat ki dukaan, chai laga!" then SFX anime-ahh at the shock cut and SpongeBob fail as the ending (SFX library)
 - look: flat 2D, white regular tee, Kalu expressions nervous / relieved / happy / shocked via 5 Flow stills; audio-driven mouth overlay; source studio/reels/2026-11-15-sofa-gaali-chai.mp4
 - insights to read 24-48 h later
+
+### 2026-11-15 Instagram: Kalu & Priya mund date (Malayalam, 16.2 s)
+- media 18487652599116955, caption "Mundu date went wrong 😭🍓" + #malayalamcomedy #mallureels #keralagram #malayali #mundu (English caption, Malayali-audience hashtags)
+- idea: Kalu in a mund on a date, the mund falls off mid-boast; Priya: "Ithuvare... alle?" then fart-with-reverb SFX ending (anime-ahh at the drop). No SpongeBob (not twice in a row).
+- voices: ElevenLabs Mahendran (Kalu, v4) + Sunaina (Priya, v3), informal Malayalam; look: seaside bench at sunset, cream kasavu mund + maroon shirt, set-saree, pink strawberry boxers; source studio/reels/2026-11-15-mund-date.mp4
+- insights to read 24-48 h later; first Malayalam reel, compare with the Hindi ones
