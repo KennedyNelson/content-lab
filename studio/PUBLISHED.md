@@ -51,3 +51,9 @@ Pace (2026-11-07 Mom 5 min): 21.5 s, 8 short lines, 16 shots (cut every 0.7-2.5 
 - script (owner's): K "bhai vo mujhe chhod ke kyun gayi" / B "chhod yaar" / B "jaane de usko" / K "par bhai meri galti kya thi" / B "jaane de usko" / K "par maine kiya kya......" / B "tu kaala hai laude! tu kaala hai!"
 - ElevenLabs v4 voices (Kalu Chris, Battery Armaan), audio-driven mouth overlay on 3 Flow stills; source studio/episodes/2026-11-15-breakup
 - insights to read 24-48 h later
+
+### 2026-11-15 Instagram: Kalu & Priya sofa, "gaali wali" (14.8 s)
+- media 18099119468141901, https://www.instagram.com/reel/DfwQpZQHFBK/, caption "Mere dost ki hone wali biwi 😂☕🙈" + #relatable #desihumor #indianreels #funnyreels #chai
+- script (owner's): K "achha ye bataiye, aap gaali wali to nahi bakti na?" / P "arre nahi nahi, main seedhi saadi hoon" / P "aap chai piyoge?" / K "bilkul piyunga" / P "oye jhaat ki dukaan, chai laga!" then SFX anime-ahh at the shock cut and SpongeBob fail as the ending (SFX library)
+- look: flat 2D, white regular tee, Kalu expressions nervous / relieved / happy / shocked via 5 Flow stills; audio-driven mouth overlay; source studio/reels/2026-11-15-sofa-gaali-chai.mp4
+- insights to read 24-48 h later
