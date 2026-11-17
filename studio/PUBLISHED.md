@@ -63,3 +63,8 @@ Pace (2026-11-07 Mom 5 min): 21.5 s, 8 short lines, 16 shots (cut every 0.7-2.5 
 - idea: Kalu in a mund on a date, the mund falls off mid-boast; Priya: "Ithuvare... alle?" then fart-with-reverb SFX ending (anime-ahh at the drop). No SpongeBob (not twice in a row).
 - voices: ElevenLabs Mahendran (Kalu, v4) + Sunaina (Priya, v3), informal Malayalam; look: seaside bench at sunset, cream kasavu mund + maroon shirt, set-saree, pink strawberry boxers; source studio/reels/2026-11-15-mund-date.mp4
 - insights to read 24-48 h later; first Malayalam reel, compare with the Hindi ones
+
+## 2026-11-17 Instagram: Pani Puri "Izzat hai dhandhe mein" (first Remotion reel)
+- media 17909942757668327, 19.7 s, caption "Izzat hai dhandhe mein 😏" + #panipuri #desihumor #relatable #indianreels #funnyreels; file 2026-11-17-pani-puri-remotion.mp4
+- idea: Kalu sells pani puri, earns more than Priya's job; "bahut izzat hai is dhandhe mein bhi", Battery throws a cash note on his face (le re + anime-ahh). Cast: Kalu hawk fade, Battery top knot, Priya high ponytail; locked tight camera; Hindi, ElevenLabs v4.
+- insights to read 24-48 h later; first Remotion-built reel
