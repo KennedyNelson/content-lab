@@ -4,7 +4,7 @@ from scipy.io import wavfile
 from scipy import signal
 sys.path.insert(0,'../..'); import bgm
 SR=44100; L=json.load(open('lines.json'))
-SPD=[1.2,1.12,1.25]; CAPS=[.08,.08,.03]; PITCH=[.87,1.0,.87]; GAIN=[.1,.1,.1]
+SPD=[1.2,1.12,1.45]; CAPS=[.08,.08,.03]; PITCH=[.87,1.0,.87]; GAIN=[.1,.1,.1]
 T_BUZZ=6.45; BUZZ_D=1.4; T=[8.4]; INTRO=3.85
 def tight(x,cap=.08):
     h=int(.012*SR); e=np.convolve(np.abs(x),np.ones(h)/h,'same'); th=max(.012,e.max()*.05)
