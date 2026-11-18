@@ -4,7 +4,7 @@ from scipy.io import wavfile
 from scipy import signal
 sys.path.insert(0,'../..'); import bgm
 SR=44100; L=json.load(open('lines.json'))
-SPD=[1.25,1.12,1.25]; CAPS=[.08,.08,.0]; GAIN=[.1,.1,.1]
+SPD=[1.2,1.12,1.25]; CAPS=[.08,.08,.03]; PITCH=[.87,1.0,.87]; GAIN=[.1,.1,.1]
 T_BUZZ=6.45; BUZZ_D=1.4; T=[8.4]; INTRO=3.85
 def tight(x,cap=.08):
     h=int(.012*SR); e=np.convolve(np.abs(x),np.ones(h)/h,'same'); th=max(.012,e.max()*.05)
@@ -29,6 +29,9 @@ for i,(sp,txt) in enumerate(L):
     subprocess.run(['ffmpeg','-nostdin','-v','error','-y','-i',f'data/t{i}.wav','-filter:a',f'atempo={SPD[i]}',f'data/p{i}.wav'],check=True); _,y=wavfile.read(f'data/p{i}.wav'); y=y.astype(float)/32768
     if sp=='f':
         b,a=signal.butter(3,[320/(SR/2),3200/(SR/2)],'band'); y=signal.lfilter(b,a,y)
+    if PITCH[i]!=1.0:
+        wavfile.write(f'data/q{i}.wav',SR,(y*32767).astype(np.int16))
+        subprocess.run(['ffmpeg','-nostdin','-v','error','-y','-i',f'data/q{i}.wav','-filter:a',f'asetrate={int(SR*PITCH[i])},aresample={SR},atempo={1/PITCH[i]:.4f}',f'data/r{i}.wav'],check=True); _,y=wavfile.read(f'data/r{i}.wav'); y=y.astype(float)/32768
     y=y/np.sqrt((y**2).mean())*GAIN[i]
     t+=gaps[i]
     h=int(.012*SR); e=np.convolve(np.abs(y),np.ones(h)/h,'same'); voiced=e>e.max()*.07; cum=np.cumsum(voiced)/SR; tot=cum[-1]
