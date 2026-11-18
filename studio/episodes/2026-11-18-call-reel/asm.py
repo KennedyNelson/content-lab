@@ -4,8 +4,8 @@ from scipy.io import wavfile
 from scipy import signal
 sys.path.insert(0,'../..'); import bgm
 SR=44100; L=json.load(open('lines.json'))
-SPD=[1.3,1.12,1.2]; GAIN=[.1,.1,.1]
-T_BUZZ=6.95; BUZZ_D=1.4; T=[8.9]; INTRO=3.85
+SPD=[1.25,1.12,1.25]; CAPS=[.08,.08,.0]; GAIN=[.1,.1,.1]
+T_BUZZ=6.45; BUZZ_D=1.4; T=[8.4]; INTRO=3.85
 def tight(x,cap=.08):
     h=int(.012*SR); e=np.convolve(np.abs(x),np.ones(h)/h,'same'); th=max(.012,e.max()*.05)
     act=np.where(e>th)[0]; x=x[max(0,act[0]-300):act[-1]+1500]; e=e[max(0,act[0]-300):act[-1]+1500]
@@ -24,7 +24,7 @@ segs=[];Wd=[];TT=[];gaps=[0,.25,.25]
 t=T[0]
 for i,(sp,txt) in enumerate(L):
     subprocess.run(['ffmpeg','-nostdin','-v','error','-y','-i',f'raw/l{i+1}.mp3','-ac','1','-ar',str(SR),f'data/l{i}.wav'],check=True)
-    _,x=wavfile.read(f'data/l{i}.wav'); x=x.astype(float)/32768; y=tight(x)
+    _,x=wavfile.read(f'data/l{i}.wav'); x=x.astype(float)/32768; y=tight(x,CAPS[i])
     wavfile.write(f'data/t{i}.wav',SR,(y*32767).astype(np.int16))
     subprocess.run(['ffmpeg','-nostdin','-v','error','-y','-i',f'data/t{i}.wav','-filter:a',f'atempo={SPD[i]}',f'data/p{i}.wav'],check=True); _,y=wavfile.read(f'data/p{i}.wav'); y=y.astype(float)/32768
     if sp=='f':
@@ -49,12 +49,12 @@ def add(x,at,g=1):
 add(np.sin(2*np.pi*880*tt)*((tt%.5)<.18)*.12+np.sin(2*np.pi*1320*tt)*((tt%.5)<.18)*.07+np.sin(2*np.pi*95*tt)*((tt%.32)<.2)*.22,T_BUZZ)
 sfxi=np.zeros(1)
 subprocess.run(['ffmpeg','-nostdin','-v','error','-y','-i','/mnt/user-data/uploads/Downloads/2668-pornhub-intro.mp3','-ac','1','-ar',str(SR),'data/intro.wav'],check=True)
-_,iw=wavfile.read('data/intro.wav'); iw=iw.astype(float)/32768; add(iw/np.abs(iw).max()*.55,INTRO)
+_,iw=wavfile.read('data/intro.wav'); iw=iw.astype(float)/32768; iw=iw[:int(2.6*SR)]*np.concatenate([np.ones(int(2.6*SR)-int(.25*SR)),np.linspace(1,0,int(.25*SR))])[:int(2.6*SR)]; add(iw/np.abs(iw).max()*.55,INTRO)
 for wt in (4.0,4.35):
     n=int(.3*SR); r=np.random.default_rng(3).standard_normal(n); r=np.convolve(r,np.ones(40)/40,'same'); add(r*np.sin(np.linspace(0,np.pi,n))*.5,wt)
 b=bgm.make('lofi',DUR)[:N]; b=np.pad(b,(0,N-len(b)))
 duck=np.convolve((np.abs(v)>.02).astype(float),np.ones(int(.25*SR))/int(.25*SR),'same')
-bg=b*(.16-.09*np.clip(duck*3,0,1)); bg[int(INTRO*SR):int((INTRO+3.0)*SR)]*=.2
+bg=b*(.16-.09*np.clip(duck*3,0,1)); bg[int(INTRO*SR):int((INTRO+2.6)*SR)]*=.2
 mix=v+fx+bg; mix=np.tanh(mix*1.1)
 wavfile.write('data/mix.wav',SR,(mix*32767).astype(np.int16))
 n30=int(DUR*30)+1; env={'k':[0]*n30,'f':[0]*n30}

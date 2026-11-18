@@ -84,8 +84,8 @@ function screenSite() {
 }
 function screenCall(t) {
   rect(-155, -305, 310, 610, '#1A2233', 0); T2('Incoming call...', 0, -240, 20, '#9FB0CC', 600);
-  const p = 1 + .06 * Math.sin(t * 14); c.save(); c.translate(0, -130); c.scale(p, p); oval(0, 0, 62, 62, '#4B5A7A', 0); T2('GD', 0, 4, 54, '#fff'); c.restore();
-  T2('Gandu Dost', 0, -20, 40, '#fff'); T2('mobile', 0, 18, 18, '#9FB0CC', 600);
+  const p = 1 + .06 * Math.sin(t * 14); c.save(); c.translate(0, -130); c.scale(p, p); oval(0, 0, 62, 62, '#4B5A7A', 0); T2('D', 0, 4, 58, '#fff'); c.restore();
+  T2('Dost', 0, -20, 48, '#fff'); T2('mobile', 0, 18, 18, '#9FB0CC', 600);
   oval(-80, 210, 44, 44, '#E03A3A', 0); rect(-98, 206, 36, 9, '#fff', 0); oval(80, 210, 44, 44, '#2FC65A', 0); oval(80, 210, 16, 16, '#fff', 0);
 }
 // ---------- shots ----------
@@ -120,8 +120,8 @@ function flung(t, a) {
   };
   item(a + .15, 's', -1.1, 7); item(a + .5, 'b', 1.3, -9);
 }
-const I0 = META.intro, I1 = I0 + 3.0;
-const lidAt = (t) => lerp(0, .95, eio(pr(t, I0 + .7, I1 - .15)));
+const I0 = META.intro, I1 = B0;
+const lidAt = (t) => lerp(0, .8, eio(pr(t, I0 + .5, I1 - .05)));
 const relaxFace = (t, extra = {}) => { const l = lidAt(t); return { brow: lerp(.3, .7, pr(t, I0, I1)), eye: 1.05, look: [0, .5], mouth: 'smile', lid: l > .88 ? 0 : l, ...(l > .88 ? { eyes: 'closed' } : {}), ...extra } };
 shot(I0, I0 + .95, (t, a) => cam(1.0 * punch(t, a), 540, 1000, 0, t, () => {
   room(t, .25); nightstand(t, 1); kaluSeated(t, relaxFace(t), { nod: 6, arms: [[-10, 40, -20, 160], [10, 40, 20, 160]] });
@@ -131,7 +131,7 @@ shot(I0 + .95, I0 + 1.9, (t, a) => cam(lerp(1.5, 1.8, pr(t, a, a + .95)) * punch
   fill('#2C2548'); c.save(); const g = c.createRadialGradient(540, 960, 30, 540, 960, 420); g.addColorStop(0, 'rgba(111,230,255,.45)'); g.addColorStop(1, 'rgba(111,230,255,0)'); c.fillStyle = g; c.fillRect(0, 400, 1080, 1100); c.restore();
   head('k', 540, 960, 200, relaxFace(t), Math.sin(t * 5) * .02); sweat(700, 840, 1.3);
 }));
-shot(I0 + 1.9, I1 + .1, (t, a) => cam(lerp(1.9, 2.4, pr(t, a, I1)), 540, 900, 0, t, () => {
+shot(I0 + 1.9, I1, (t, a) => cam(lerp(1.9, 2.4, pr(t, a, I1)), 540, 900, 0, t, () => {
   fill('#2C2548'); c.save(); const g = c.createRadialGradient(540, 960, 30, 540, 960, 420); g.addColorStop(0, 'rgba(111,230,255,.4)'); g.addColorStop(1, 'rgba(111,230,255,0)'); c.fillStyle = g; c.fillRect(0, 400, 1080, 1100); c.restore();
   head('k', 540, 960 + 20 * pr(t, a, I1), 200, relaxFace(t), -.05 * pr(t, a, I1)); sweat(700, 850, 1.3);
 }));
