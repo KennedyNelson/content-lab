@@ -21,7 +21,11 @@ const fill = (col) => { c.fillStyle = col; c.fillRect(-400, -400, 1900, 2800) };
 // ---------- heads ----------
 function head(who, cx, cy, r, f, rot = 0) {
   c.save(); c.translate(cx, cy); c.rotate(rot);
-  if (who === 'k') face({ ...f, r, skin: SK_K, lw: r / 14, kind: 'round', hair: 'afro', hairFill: '#17110E', hairStill: true });
+  if (who === 'k') {
+    for (let i = 0; i < 13; i++) { const a = Math.PI * (1.0 + i / 12); oval(Math.cos(a) * r * 1.02, -r * .05 + Math.sin(a) * r * 1.0, r * .36, r * .34, '#17110E', r / 20, INK, 1.2) }
+    face({ ...f, r, skin: SK_K, lw: r / 14, kind: 'round', hair: undefined });
+    shape([[-r * .98, -r * .35], [-r * .9, -r * .78], [-r * .5, -r * 1.0], [0, -r * 1.05], [r * .5, -r * 1.0], [r * .9, -r * .78], [r * .98, -r * .35], [r * .78, -r * .62], [r * .3, -r * .72], [-r * .3, -r * .72], [-r * .78, -r * .62]], '#17110E', r / 16, INK, 1);
+  }
   else face({ ...f, r, skin: SK_F, lw: r / 14, kind: 'round', hair: 'part', hairFill: '#2A1D16', hairStill: true, specs: 'thin' });
   if (f.lid) { const ey = -r * .2, b = r * .34 * (f.eye || 1), sk = SK_K; for (const q of [-1, 1]) { const X = q * r * .33 * (f.eye || 1) * .98; c.fillStyle = who === 'k' ? SK_K : SK_F; c.fillRect(X - b * 1.12, ey - b * 1.1, b * 2.24, b * 2.24 * f.lid * .9); line([[X - b * 1.12, ey - b * 1.1 + b * 2.24 * f.lid * .9], [X + b * 1.12, ey - b * 1.1 + b * 2.24 * f.lid * .9]], r / 14, INK, .5) } }
   c.restore();
@@ -32,8 +36,8 @@ function room(t, glow = 0) {
   fill('#2C2548'); rect(-100, 1480, 1300, 600, '#1F1A36', 0); rect(140, 1650, 800, 200, '#7A3B4F', 0);
   rect(110, 330, 250, 330, '#16123A', 9); oval(250, 440, 42, 42, '#F5ECC2', 0); oval(268, 430, 38, 38, '#16123A', 0); line([[235, 330], [235, 660]], 8);
   rect(740, 380, 200, 260, '#3A3158', 8);
-  rect(190, 620, 700, 560, '#5A3A2A', 9); rect(250, 690, 580, 490, '#6D4833', 0);
-  if (glow) { c.save(); c.globalAlpha = glow; oval(540, 900, 200, 180, '#6FE6FF', 0); c.restore() }
+  rect(190, 620, 700, 560, '#4A3F78', 9); rect(250, 690, 580, 490, '#5C4F90', 0);
+  if (glow) { c.save(); const g = c.createRadialGradient(540, 900, 20, 540, 900, 260); g.addColorStop(0, `rgba(111,230,255,${glow})`); g.addColorStop(1, 'rgba(111,230,255,0)'); c.fillStyle = g; c.fillRect(200, 600, 680, 600); c.restore() }
 }
 function nightstand(t, buzz) {
   rect(790, 1060, 280, 46, '#5A3A2A', 8); line([[820, 1106], [820, 1620]], 16, '#4A2E20', 0); line([[1040, 1106], [1040, 1620]], 16, '#4A2E20', 0);
@@ -105,12 +109,7 @@ shot(1.5, 2.8, (t, a) => cam(lerp(1.15, 1.4, pr(t, a, 2.8)) * punch(t, a), 600, 
 shot(2.8, 3.85, (t, a) => cam(1.0 * punch(t, a), 540, 960, 0, t, () => {
   fill('#12101C'); const u = pr(t, a, 3.85); phoneShape(540, 930, 1.55 + u * .06, -.03, screenSite); handOnPhone(540, 930, 1.55 + u * .06, -.03);
 }));
-// 4 face glued
-shot(3.85, 4.55, (t, a) => cam(lerp(1.7, 2.0, pr(t, a, 4.55)) * punch(t, a), 540, 880, 2, t, () => {
-  fill('#2C2548'); c.save(); c.globalAlpha = .5; oval(540, 960, 300, 260, '#6FE6FF', 0); c.restore();
-  head('k', 540, 960, 200, { brow: .3, eye: 1.05, look: [0, .6], mouth: 'smile', ...blink(t, .5) }, Math.sin(t * 9) * .03); sweat(700, 840, 1.3);
-}));
-// 5 strip under blanket: clothes fly out
+// 4-6 intro jingle: clothes fly, then eyes slowly close (relax)
 function flung(t, a) {
   const item = (t0, kind, dx, rot) => {
     const u = t - t0; if (u < 0 || u > 1.1) return; const x = 560 + dx * u * 300, y = 1240 - 1250 * u + 1500 * u * u;
@@ -119,41 +118,51 @@ function flung(t, a) {
     else { shape([[-48, -30], [48, -30], [40, 10], [8, 40], [-8, 40], [-40, 10]], '#FFFFFF', 8, INK, 1.2); rect(-48, -40, 96, 16, '#D92B3A', 5) }
     c.restore();
   };
-  item(a + .12, 's', -1.1, 7); item(a + .4, 'b', 1.3, -9);
+  item(a + .15, 's', -1.1, 7); item(a + .5, 'b', 1.3, -9);
 }
-shot(4.55, 5.4, (t, a) => cam(1.0 * punch(t, a), 540, 1000, 0, t, () => {
-  room(t, .25); nightstand(t, 1); kaluSeated(t, { brow: .3, look: [0, .6], mouth: 'smile', ...blink(t, .3) }, { nod: 6, arms: [[-10, 40, -20, 160], [10, 40, 20, 160]] });
-  blanket(t, Math.sin(t * 16) * 9); flung(t, a);
+const I0 = META.intro, I1 = I0 + 3.0;
+const lidAt = (t) => lerp(0, .95, eio(pr(t, I0 + .7, I1 - .15)));
+const relaxFace = (t, extra = {}) => { const l = lidAt(t); return { brow: lerp(.3, .7, pr(t, I0, I1)), eye: 1.05, look: [0, .5], mouth: 'smile', lid: l > .88 ? 0 : l, ...(l > .88 ? { eyes: 'closed' } : {}), ...extra } };
+shot(I0, I0 + .95, (t, a) => cam(1.0 * punch(t, a), 540, 1000, 0, t, () => {
+  room(t, .25); nightstand(t, 1); kaluSeated(t, relaxFace(t), { nod: 6, arms: [[-10, 40, -20, 160], [10, 40, 20, 160]] });
+  blanket(t, Math.sin(t * 16) * 9); flung(t, I0);
 }));
-// 6 call arrives: phone in Kalu's hand, his face behind it
-shot(5.4, 6.8, (t, a) => cam(1.0 * punch(t, a), 540, 960, 0, t, () => {
+shot(I0 + .95, I0 + 1.9, (t, a) => cam(lerp(1.5, 1.8, pr(t, a, a + .95)) * punch(t, a), 540, 880, 0, t, () => {
+  fill('#2C2548'); c.save(); const g = c.createRadialGradient(540, 960, 30, 540, 960, 420); g.addColorStop(0, 'rgba(111,230,255,.45)'); g.addColorStop(1, 'rgba(111,230,255,0)'); c.fillStyle = g; c.fillRect(0, 400, 1080, 1100); c.restore();
+  head('k', 540, 960, 200, relaxFace(t), Math.sin(t * 5) * .02); sweat(700, 840, 1.3);
+}));
+shot(I0 + 1.9, I1 + .1, (t, a) => cam(lerp(1.9, 2.4, pr(t, a, I1)), 540, 900, 0, t, () => {
+  fill('#2C2548'); c.save(); const g = c.createRadialGradient(540, 960, 30, 540, 960, 420); g.addColorStop(0, 'rgba(111,230,255,.4)'); g.addColorStop(1, 'rgba(111,230,255,0)'); c.fillStyle = g; c.fillRect(0, 400, 1080, 1100); c.restore();
+  head('k', 540, 960 + 20 * pr(t, a, I1), 200, relaxFace(t), -.05 * pr(t, a, I1)); sweat(700, 850, 1.3);
+}));
+// 7 call arrives: phone in Kalu's hand, his face behind it
+shot(B0, B1, (t, a) => cam(1.0 * punch(t, a), 540, 960, 0, t, () => {
   fill('#12101C'); const sh = Math.sin(t * 38) * 7; head('k', 540, 330, 190, { brow: -.2, eye: 1.2, look: [0, .9], mouth: 'flat', ...blink(t) }, Math.sin(t * 9) * .02); sweat(690, 250, 1.3);
   phoneShape(540 + sh, 1050, 1.45, Math.sin(t * 38) * .03, () => screenCall(t)); handOnPhone(540 + sh, 1050, 1.45, Math.sin(t * 38) * .03);
 }));
-// 7 disappointed stare
-shot(6.8, 7.0, (t, a) => { }); // placeholder (merged below)
-shot(6.8, 8.5, (t, a) => cam(lerp(1.5, 1.9, pr(t, a, 8.5)) * punch(t, a), 540, 900, 0, t, () => {
-  fill('#2C2548'); head('k', 540, 940, 200, { brow: .7, eye: 1, lid: .5, look: [.5, .4], mouth: 'flat', ...(t < 7.25 ? {} : { eyes: undefined }), ...(((t - a) % 2.2) < .16 ? { eyes: 'closed' } : {}) }, -.05);
-  if (t > 7.0) { c.save(); c.globalAlpha = .9; sweat(720, 840, 1.2); c.restore() }
+const [LK1, LF, LK3] = T_;
+// 8 disappointed stare (before he speaks)
+shot(B1, LK1[1], (t, a) => cam(lerp(1.5, 1.9, pr(t, a, LK1[1])) * punch(t, a), 540, 900, 0, t, () => {
+  fill('#2C2548'); head('k', 540, 940, 200, { brow: .7, eye: 1, lid: .5, look: [.5, .4], mouth: 'flat', ...(((t - a) % 2.2) < .16 ? { eyes: 'closed' } : {}) }, -.05); sweat(720, 840, 1.2);
 }));
-// 8 Kalu on call line 1
-shot(8.5, 10.3, (t, a) => cam(lerp(1.5, 1.75, pr(t, a, 10.3)) * punch(t, a), 540, 950, 0, t, () => {
-  fill('#2C2548'); const m = mouthOf('k', t); head('k', 500, 930, 190, { brow: .8, eye: 1, lid: .5, look: [.3, .3], ...m, ...(((t) % 2.4) < .14 ? { eyes: 'closed' } : {}) }, -.06 + Math.sin(t * 6) * .01);
-  rect(680, 940, 70, 180, '#111', 8); rect(690, 960, 50, 120, '#4BE08A', 0); line([[640, 1060], [690, 1070]], 14, SK_K, 0);
+// 9 Kalu snaps (angry-ish line 1)
+shot(LK1[1], LF[1], (t, a) => cam(lerp(1.5, 1.85, pr(t, a, LK1[2])) * punch(t, a), 540, 950, 0, t, () => {
+  fill('#2C2548'); const m = mouthOf('k', t), e = env('k', t); head('k', 500, 930, 190, { brow: -.8, eye: 1, lid: .3, look: [.3, .3], ...m }, -.06 + Math.sin(t * 9) * .02 * e);
+  rect(680, 940, 70, 180, '#111', 8); rect(690, 960, 50, 120, '#4BE08A', 0); line([[640, 1060], [690, 1070]], 14, SK_K, 0); sweat(690, 840, 1.1);
 }));
-// 9 friend (other side)
-shot(10.3, 11.7, (t, a) => cam(lerp(1.3, 1.5, pr(t, a, 11.7)) * punch(t, a), 540, 960, 0, t, () => {
+// 10 friend
+shot(LF[1], LF[1] + 1.4, (t, a) => cam(lerp(1.3, 1.5, pr(t, a, a + 1.4)) * punch(t, a), 540, 960, 0, t, () => {
   fill('#E0B84C'); for (let i = 0; i < 6; i++) rect(i * 190 - 40, -400, 80, 2800, 'rgba(0,0,0,.05)', 0);
   const m = mouthOf('f', t); head('f', 540, 960, 190, { brow: .3, eye: 1.05, look: [-.2, .1], ...m, ...blink(t, 1) }, .07 + Math.sin(t * 8) * .015);
-  rect(260, 980, 70, 170, '#111', 8); rect(270, 1000, 50, 110, '#4BE08A', 0);
+  rect(260, 980, 70, 170, '#111', 8); rect(270, 1000, 50, 120, '#4BE08A', 0);
 }));
-// 10 Kalu blank reaction while friend finishes
-shot(11.7, 13.0, (t, a) => cam(lerp(1.9, 2.4, pr(t, a, 13.0)), 540, 900, 0, t, () => {
-  fill('#2C2548'); head('k', 540, 950, 200, { brow: .9, eye: 1.0, lid: .55, look: [.6, 0], mouth: 'flat', ...(((t - a) % 2.5) < .5 && (t - a) > .6 ? { eyes: 'closed' } : {}) }, -.03);
+// 11 Kalu blank reaction while friend finishes
+shot(LF[1] + 1.4, LK3[1], (t, a) => cam(lerp(1.9, 2.3, pr(t, a, LK3[1])), 540, 900, 0, t, () => {
+  fill('#2C2548'); head('k', 540, 950, 200, { brow: .9, eye: 1.0, lid: .55, look: [.6, 0], mouth: 'flat', ...(((t - a) % 2.5) < .5 && (t - a) > .5 ? { eyes: 'closed' } : {}) }, -.03);
 }));
-// 11 punchline
-shot(13.0, 99, (t, a) => cam(lerp(1.7, 2.2, pr(t, a, a + 1.8)) * punch(t, a), 540, 900, 0, t, () => {
-  fill('#2C2548'); const m = mouthOf('k', t); head('k', 540, 950, 200, { brow: .6, eye: .95, lid: .5, look: [0, .1], ...m }, 0);
+// 12 punchline
+shot(LK3[1], 99, (t, a) => cam(lerp(1.7, 2.2, pr(t, a, a + 1.2)) * punch(t, a), 540, 900, 0, t, () => {
+  fill('#2C2548'); const m = mouthOf('k', t); head('k', 540, 950, 200, { brow: -.5, eye: .95, lid: .4, look: [0, .1], ...m }, 0);
 }));
 export function draw(t) {
   setBoil(Math.floor(t * 8));

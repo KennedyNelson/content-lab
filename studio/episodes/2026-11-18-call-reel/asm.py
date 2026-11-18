@@ -4,8 +4,8 @@ from scipy.io import wavfile
 from scipy import signal
 sys.path.insert(0,'../..'); import bgm
 SR=44100; L=json.load(open('lines.json'))
-SPD=[1.15,1.12,1.1]; GAIN=[.1,.1,.1]
-T_BUZZ=5.2; BUZZ_D=1.4; T=[7.0]
+SPD=[1.3,1.12,1.2]; GAIN=[.1,.1,.1]
+T_BUZZ=6.95; BUZZ_D=1.4; T=[8.9]; INTRO=3.85
 def tight(x,cap=.08):
     h=int(.012*SR); e=np.convolve(np.abs(x),np.ones(h)/h,'same'); th=max(.012,e.max()*.05)
     act=np.where(e>th)[0]; x=x[max(0,act[0]-300):act[-1]+1500]; e=e[max(0,act[0]-300):act[-1]+1500]
@@ -47,11 +47,15 @@ fx=np.zeros(N)
 def add(x,at,g=1):
     i=int(at*SR); x=x[:N-i]; fx[i:i+len(x)]+=x*g
 add(np.sin(2*np.pi*880*tt)*((tt%.5)<.18)*.12+np.sin(2*np.pi*1320*tt)*((tt%.5)<.18)*.07+np.sin(2*np.pi*95*tt)*((tt%.32)<.2)*.22,T_BUZZ)
-for wt in (4.62,4.9):
+sfxi=np.zeros(1)
+subprocess.run(['ffmpeg','-nostdin','-v','error','-y','-i','/mnt/user-data/uploads/Downloads/2668-pornhub-intro.mp3','-ac','1','-ar',str(SR),'data/intro.wav'],check=True)
+_,iw=wavfile.read('data/intro.wav'); iw=iw.astype(float)/32768; add(iw/np.abs(iw).max()*.55,INTRO)
+for wt in (4.0,4.35):
     n=int(.3*SR); r=np.random.default_rng(3).standard_normal(n); r=np.convolve(r,np.ones(40)/40,'same'); add(r*np.sin(np.linspace(0,np.pi,n))*.5,wt)
 b=bgm.make('lofi',DUR)[:N]; b=np.pad(b,(0,N-len(b)))
 duck=np.convolve((np.abs(v)>.02).astype(float),np.ones(int(.25*SR))/int(.25*SR),'same')
-mix=v+fx+b*(.16-.09*np.clip(duck*3,0,1)); mix=np.tanh(mix*1.1)
+bg=b*(.16-.09*np.clip(duck*3,0,1)); bg[int(INTRO*SR):int((INTRO+3.0)*SR)]*=.2
+mix=v+fx+bg; mix=np.tanh(mix*1.1)
 wavfile.write('data/mix.wav',SR,(mix*32767).astype(np.int16))
 n30=int(DUR*30)+1; env={'k':[0]*n30,'f':[0]*n30}
 for s,y,sp in segs:
@@ -61,5 +65,5 @@ for s,y,sp in segs:
         idx=int(s*30)+j
         if idx<n30: env[sp][idx]=round(float(np.clip(val/top,0,1)),3)
 json.dump(Wd,open('data/words.json','w')); json.dump(TT,open('data/timing.json','w'),indent=0)
-json.dump(dict(dur=DUR,buzz=[T_BUZZ,T_BUZZ+BUZZ_D],lines=[[d['sp'],d['start'],d['end']] for d in TT]),open('data/meta.json','w')); json.dump(env,open('data/env.json','w'))
+json.dump(dict(dur=DUR,intro=INTRO,buzz=[T_BUZZ,T_BUZZ+BUZZ_D],lines=[[d['sp'],d['start'],d['end']] for d in TT]),open('data/meta.json','w')); json.dump(env,open('data/env.json','w'))
 print('DUR',DUR,[ (d['start'],d['end']) for d in TT])
