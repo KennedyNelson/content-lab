@@ -69,3 +69,9 @@ Pace (2026-11-07 Mom 5 min): 21.5 s, 8 short lines, 16 shots (cut every 0.7-2.5 
 - idea: Kalu sells pani puri, earns more than Priya's job; "bahut izzat hai is dhandhe mein bhi", Battery throws a cash note on his face (le re + anime-ahh). Cast: Kalu hawk fade, Battery top knot, Priya high ponytail; locked tight camera; Hindi, ElevenLabs v4.
 - insights to read 24-48 h later; first Remotion-built reel
 - 2026-11-18 Instagram (not posted, awaiting owner OK) lifetime-fart reel: Stickman, Pappu (round bald head, 3 hairs, white vest, pot belly), chowkidar in khaki, bright desi room; ElevenLabs Armaan, chip BGM, fart-with-reverb SFX; ep-fart.js
+
+### 2026-11-18 Instagram: Date poop (Hindi, Stickman, 39.4 s)
+- media 17977100784176755, https://www.instagram.com/reel/Df4XNpdAffL/, caption "Pet ne dhokha diya 💀" + #desihumor #funnyreels #indianreels #relatable #darkhumor (location not tagged, no Page ID); file 2026-11-18-date-poop-reel.mp4
+- idea (owner): on a date he farts but poops his pants; girl forgives, same thing happens at his place; story "red flag nahi, brown flag". ~28 cuts (new angle every 1-2.5 s), voices Amit Explosive (narrator) + Rysa (girl), sneaky BGM, dry-fart + fart-with-reverb SFX from library
+- look: Stickman, Bunty (black quiff, mustard tee) and Simran (long hair, red dress); owner feedback on the earlier single-angle lifetime-fart reel (not posted) was to add many camera angles and crude dark humour
+- insights to read 24-48 h later
