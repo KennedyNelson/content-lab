@@ -68,3 +68,4 @@ Pace (2026-11-07 Mom 5 min): 21.5 s, 8 short lines, 16 shots (cut every 0.7-2.5 
 - media 17909942757668327, 19.7 s, caption "Izzat hai dhandhe mein 😏" + #panipuri #desihumor #relatable #indianreels #funnyreels; file 2026-11-17-pani-puri-remotion.mp4
 - idea: Kalu sells pani puri, earns more than Priya's job; "bahut izzat hai is dhandhe mein bhi", Battery throws a cash note on his face (le re + anime-ahh). Cast: Kalu hawk fade, Battery top knot, Priya high ponytail; locked tight camera; Hindi, ElevenLabs v4.
 - insights to read 24-48 h later; first Remotion-built reel
+- 2026-11-18 Instagram (not posted, awaiting owner OK) lifetime-fart reel: Stickman, Pappu (round bald head, 3 hairs, white vest, pot belly), chowkidar in khaki, bright desi room; ElevenLabs Armaan, chip BGM, fart-with-reverb SFX; ep-fart.js
