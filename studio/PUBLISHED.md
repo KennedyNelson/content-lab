@@ -75,3 +75,9 @@ Pace (2026-11-07 Mom 5 min): 21.5 s, 8 short lines, 16 shots (cut every 0.7-2.5 
 - idea (owner): on a date he farts but poops his pants; girl forgives, same thing happens at his place; story "red flag nahi, brown flag". ~28 cuts (new angle every 1-2.5 s), voices Amit Explosive (narrator) + Rysa (girl), sneaky BGM, dry-fart + fart-with-reverb SFX from library
 - look: Stickman, Bunty (black quiff, mustard tee) and Simran (long hair, red dress); owner feedback on the earlier single-angle lifetime-fart reel (not posted) was to add many camera angles and crude dark humour
 - insights to read 24-48 h later
+
+### 2026-11-20 Instagram: Kalu interrupted by a call (Hindi, Comic Art, 14.1 s)
+- media 18141081124650725, https://www.instagram.com/reel/Df9fHkgGGnw/, caption "Sahi time, galat call 💀" + #desihumor #funnyreels #indianreels #relatable #darkhumor (location not tagged, no Page ID); file 2026-11-20-kalu-call-reel.mp4
+- idea (owner): friend calls at the worst moment; friend "कालू कैसा है?", Kalu "काला लंबा है, लेगा क्या? बहन के लंड, कॉल मत करियो आज से"; faaah SFX; no on-screen text beyond top line
+- look: Comic Art (halftone, thick ink), Kalu normal slightly-angry voice (Amit) + Armaan friend (phone filter)
+- insights to read 24-48 h later
