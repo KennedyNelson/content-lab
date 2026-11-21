@@ -13,5 +13,8 @@ Navy #0a1a2f, white text, panels #13294a, accent lime #c6ff00 (text on accent na
 - Reels: fast cuts on the beat, slow-motion hero moments, kinetic captions, counters (members, matches, goals), scoreboard and bracket animations, confetti/particle burst on wins, whistle/crowd SFX from studio/sfx_library.
 - Recruitment reel: hook ("Looking for players?"), what you get, how to join, date. Event promo: countdown, venue, highlight shots, ends on QR/link.
 
+## Message and hooks (English)
+Core idea: "No team? No problem. Just show up." Free, open to everyone, any level. Hook examples: "Want to play but have nobody to play with?" / "Cricket, football, badminton, running. Free. Every week." / "Beginner? Perfect." / "Bring nothing but interest." Sport pictograms (bat, ball, shuttle, running shoe) as simple icons in the accent colour; one sport per piece plus an "all sports" version.
+
 ## Approved / rejected
 (none yet: add each owner decision here in the same session)

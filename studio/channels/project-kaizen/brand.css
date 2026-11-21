@@ -1,4 +1,7 @@
-/* Project Kaizen brand tokens. PROVISIONAL colours (2026-11-21): the website text does not state the palette. Owner to confirm or replace; change only this file. */
+/* Project Kaizen brand tokens. Source: owner's techpacks (2026-11-21): body Pantone 19-0303 TCX Jet Black, print/rib/label Pantone 11-0601 TCX Bright White; Arise also in a blue colourway. Screen values below are close matches, not Pantone-exact. */
 @font-face{font-family:"KZ Display";src:url("../../effects/fonts/Anton-Regular.ttf")}
 @font-face{font-family:"KZ Body";src:url("../../effects/fonts/Montserrat.ttf");font-weight:100 900}
-:root{--bg:#0b0b0b;--fg:#f4f1ea;--panel:#1a1a1a;--accent:#ff3b1f;--accent-ink:#0b0b0b;--font-display:"KZ Display",Impact,sans-serif;--font-body:"KZ Body",Arial,sans-serif}
+:root{--bg:#111111;--fg:#f4f5f0;--panel:#1c1c1c;--accent:#f4f5f0;--accent-ink:#111111;--blue:#2f3b9e;--font-display:"KZ Display",Impact,sans-serif;--font-body:"KZ Body",Arial,sans-serif}
+/* monochrome brand: the accent word is hollow (white outline) instead of a second colour */
+.d .acc{color:transparent;-webkit-text-stroke:.025em var(--accent)}
+.logo{background-image:url("assets/logo-antlers-white.png")}

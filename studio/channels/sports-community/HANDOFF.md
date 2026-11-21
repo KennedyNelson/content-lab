@@ -1,15 +1,13 @@
 # Sports community: setup brief (2026-11-21)
 Folder name `sports-community` is temporary: rename it (and the row in ../README.md) when the owner decides the community's name. Claude makes promotional videos, reels, banners, photos, flyers and pamphlets. Owner approves and posts.
 
-## Known facts
-Only this: it is the owner's sports community and it needs banners, reels, videos, photos, pamphlets and flyers. Everything else below is open.
-
-## Needed from the owner (open items)
-1. Community name and logo (or ask Claude to propose names and a simple wordmark for him to approve); tagline.
-2. Which sport(s), city or area, who it is for (age groups, men/women/mixed, beginners or competitive), and whether children are involved.
-3. What to promote first: recruitment, a tournament, a weekly meetup, a fundraiser, a sponsor pitch. Dates, venue, fees, contact and the sign-up link or QR, supplied by him.
-4. Colours or any team kit already in use; reference communities, clubs or posts he likes.
-5. Language(s) for copy and captions; who is allowed on camera (see consent rule).
+## Known facts (from the owner, 2026-11-21)
+- Name: not decided. Starts in Trivandrum (Thiruvananthapuram), no limit on place: other cities can follow.
+- For everyone who wants to play: no age limit, no fees, no membership, no registration. Beginners to advanced; corporate employees, students, older people, anyone. The only requirement is interest in playing, even without a group.
+- First four sports: cricket, football, badminton, running. More sports added over time.
+- How people join an event: a WhatsApp group or a Playo link per event (not decided yet).
+- Language: English for all promotion.
+- Owner hosts the events; promotions will be banners, reels, videos, photos, pamphlets and flyers.
 
 ## What Claude can make, and with what
 | Output | How |
@@ -21,3 +19,10 @@ Only this: it is the owner's sports community and it needs banners, reels, video
 
 ## Workflow
 Same as ../project-kaizen/HANDOFF.md: brief -> copy -> layout -> draft -> check -> send -> log feedback in STYLE-SHEET.md. Recipes in studio/episodes/<date>-sports-<slug>/.
+
+## Still needed from the owner
+1. Community name, logo and tagline (Claude can propose names and a simple wordmark to approve; check each name is free on Instagram and as a domain before he commits).
+2. First event: sport, date, time, venue in Trivandrum, what to bring, who hosts, and how people join (WhatsApp or Playo link/QR).
+3. Colours or any kit already decided, and reference clubs or posts he likes.
+4. Whether sponsors, partners or a venue logo will appear (with their permission).
+5. Who is allowed on camera; for under-18s a guardian's permission (see RULES.md).
