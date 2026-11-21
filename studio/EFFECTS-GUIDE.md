@@ -31,3 +31,6 @@ Rule: every talking-head edit checks this guide, then picks the best effects for
 - `scripts/words.py` installs faster-whisper and downloads its model from huggingface.co, which this workspace blocks. Instead, write `<video>.words.json` yourself from the sherpa-onnx whisper transcript (see ../TOOLS.md), one entry per word, in the format words.py writes, then run fx.py. Fix misheard words by hand.
 - The pack can also run on the owner's own computer: `git clone https://github.com/adamgodigital/claude-reel-effects ~/.claude/skills/effects`.
 - STATUS 2026-11-21: pack added and licence checked; the install and a test render have NOT been run yet. The first video that uses it must run setup and a draft test first, then correct this line.
+
+## Promo work (Project Kaizen, sports community)
+Use the same pack when the owner or a member is on camera (founder talking, fit check, recruitment pitch): `pop-word` for the big claim or product name, `logo-link` for brand + partner, `card-drop` to show a product or poster screenshot, `lean-in` on the call to action, `comment-box` for "comment JOIN", `tap` for follow. Image/banner/flyer work uses ../design/ instead; motion libraries are in ../MOTION-GUIDE.md. Brand folders: channels/project-kaizen/ and channels/sports-community/.

@@ -1,0 +1,11 @@
+# Project Kaizen rules (current only)
+- Replies to the owner in English only. Deliver files with SendUserFile; the owner posts. No posting account is connected; never post without a set-up and an OK.
+- Brand: look comes from brand.css (provisional until the owner confirms colours/logo/fonts). Never invent a logo; use only files the owner provides (the website shows the wordmark "Project Kaizen" as text).
+- Product truth: real product photos only. No AI-made images of the actual garments. AI may make backgrounds, textures or mood art around a real photo.
+- Copy truth: prices, discounts, sizes, delivery claims, dates and codes only from the owner or projectkaizen.in at the time. No health, weight-loss or performance claims. No fake scarcity (countdown or "only 3 left") unless it is real.
+- Third-party characters and artwork: THE OGRE - YUJIRO HANMA T-Shirt and any other licensed or fan-art design: show only the owner's real photos of the product exactly as it is. Never redraw, animate, recolour or generate that character; do not use the character in banners, flyers or videos beyond the real product photo. If the owner wants more, ask him to confirm he holds the licence.
+- Music: only licensed/CC0 or the owner's own. SFX from studio/sfx_library.
+- Video: 9:16 1080x1920 30 fps for reels and stories (nothing in the top 240 / bottom 350 px except background), 16:9 1920x1080 for web and YouTube, H.264, AAC 192k, -14 LUFS, draft first. Strong hook in the first second (../HOOKS.md). Hindi captions in Devanagari when the video is in Hindi.
+- Images: sizes and print rules in ../../design/README.md. Always preview and read the text of every piece before sending.
+- Effects pack: for any on-camera clip use ../../EFFECTS-GUIDE.md; one effect every 3 to 6 seconds, never over the face.
+- Log nothing in PUBLISHED.md unless a piece is actually posted (name the account).

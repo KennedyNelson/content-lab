@@ -1,0 +1,4 @@
+/* Sports community brand tokens. PROVISIONAL (name and colours not decided, 2026-11-21). Change only this file once the owner decides. */
+@font-face{font-family:"SC Display";src:url("../../effects/fonts/ArchivoBlack-Regular.ttf")}
+@font-face{font-family:"SC Body";src:url("../../effects/fonts/Montserrat.ttf");font-weight:100 900}
+:root{--bg:#0a1a2f;--fg:#ffffff;--panel:#13294a;--accent:#c6ff00;--accent-ink:#0a1a2f;--font-display:"SC Display",Impact,sans-serif;--font-body:"SC Body",Arial,sans-serif}

@@ -8,13 +8,15 @@ The single source of truth for all four accounts. Skills are thin pointers to th
 | `professor-jhatu/` | Instagram Professor Jhatu (professor.jhaatuke, ID 28743020845381144) | faceless educational reels: puzzles, coding questions, crazy facts, what-if | daily task | LIVE (trial of a few days) |
 | `funwithken/` | YouTube Shorts FunWithKen | informational, modern, trendy, relatable | daily task, 9 am IST | LIVE again (trial of a few days) |
 | `kaizenken/` | owner's own channel (on camera) | talking-head videos Claude edits | owner posts manually | project kaizenKen, no task |
+| `project-kaizen/` | Project Kaizen clothing brand (projectkaizen.in, IG @projectkaizenclo) | promo videos, product images, banners, flyers, pamphlets | owner posts manually | set up 2026-11-21, brand kit provisional |
+| `sports-community/` | owner's sports community (name not decided) | event and recruitment reels, banners, flyers, pamphlets, photos | owner posts manually | set up 2026-11-21, everything provisional |
 
 Each account folder has: STYLE-SHEET.md (how it looks/sounds, from approved work), RULES.md (current rules only), references/ (clips and contact sheets), plus HANDOFF.md / PROCESS.md / LEGACY-SKILL.md where they exist.
 
 ## Shared files
 - `HOOKS.md` hook rule (mandatory on YouTube and Professor Jhatu, optional on kalujokes).
 - `VOICES.md` expressive realistic ElevenLabs acting for all accounts.
-- `../TOOLS.md` tools and install notes; `../EFFECTS-GUIDE.md` which video effect to use for which moment (talking-head edits and any account; pack in `../effects/`, licences in `../ASSETS.md`); `../TOOLKIT-FULL.md` the full animation toolkit text (style picker, build, voices, BGM) archived from the old skill; `../PUBLISHED.md` log of every post, name the account on each line; `../LEMO-INDEX.md`, `../STYLE-LIBRARY.md`, `../styles-pack/`, `../sfx_library/`, `../refs/`, `../src/`, `../episodes/`.
+- `../design/` image/banner/flyer/pamphlet kit, `../MOTION-GUIDE.md` animation libraries; `../TOOLS.md` tools and install notes; `../EFFECTS-GUIDE.md` which video effect to use for which moment (talking-head edits and any account; pack in `../effects/`, licences in `../ASSETS.md`); `../TOOLKIT-FULL.md` the full animation toolkit text (style picker, build, voices, BGM) archived from the old skill; `../PUBLISHED.md` log of every post, name the account on each line; `../LEMO-INDEX.md`, `../STYLE-LIBRARY.md`, `../styles-pack/`, `../sfx_library/`, `../refs/`, `../src/`, `../episodes/`.
 
 ## How Claude works (flow)
 Scheduled task prompt (one page) -> clone this repo -> read the account folder + HOOKS.md + VOICES.md -> research -> script -> audio first -> picture -> QA -> post with that account's ID -> log in PUBLISHED.md -> report. Skills are short pointers; where an old skill text or LEGACY-SKILL.md disagrees with a file here, the files here win.

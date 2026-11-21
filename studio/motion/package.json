@@ -1,0 +1,14 @@
+{
+  "name": "studio-motion",
+  "private": true,
+  "description": "Shared animation libraries for all accounts (overlays inside Remotion/HyperFrames/HTML players)",
+  "dependencies": {
+    "@dimforge/rapier2d-compat": "^0.21.0",
+    "animejs": "^4.5.0",
+    "gsap": "^3.15.1",
+    "lottie-web": "^5.13.0",
+    "matter-js": "^0.20.0",
+    "motion": "^14.14.0",
+    "tsparticles": "^4.6.0"
+  }
+}

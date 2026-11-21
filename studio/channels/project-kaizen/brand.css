@@ -1,0 +1,4 @@
+/* Project Kaizen brand tokens. PROVISIONAL colours (2026-11-21): the website text does not state the palette. Owner to confirm or replace; change only this file. */
+@font-face{font-family:"KZ Display";src:url("../../effects/fonts/Anton-Regular.ttf")}
+@font-face{font-family:"KZ Body";src:url("../../effects/fonts/Montserrat.ttf");font-weight:100 900}
+:root{--bg:#0b0b0b;--fg:#f4f1ea;--panel:#1a1a1a;--accent:#ff3b1f;--accent-ink:#0b0b0b;--font-display:"KZ Display",Impact,sans-serif;--font-body:"KZ Body",Arial,sans-serif}
