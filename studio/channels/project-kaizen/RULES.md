@@ -1,7 +1,8 @@
 # Project Kaizen rules (current only)
 - Replies to the owner in English only. Deliver files with SendUserFile; the owner posts. No posting account is connected; never post without a set-up and an OK.
 - Language: English for all copy, captions and voice.
-- Brand: look comes from brand.css (colours from the owner's techpacks: black and white only, blue only for Arise). Logo only from studio/channels/project-kaizen/assets (owner's files); never redraw or alter the antlers.
+- Core theme, always apply: continuous improvement, "1% better every day"; the merch spreads that motivation. Fonts are not fixed: choose per piece to match this theme. The Yujiro shirt is named "THE OGRE - YUJIRO HANMA T-Shirt" in all copy.
+- Brand: look comes from brand.css (colours from the owner's techpacks: black and white only; the blue Arise colourway was not produced). Logo only from studio/channels/project-kaizen/assets (owner's files); never redraw or alter the antlers.
 - Product truth: real product photos only. No AI-made images of the actual garments. AI may make backgrounds, textures or mood art around a real photo.
 - Copy truth: prices, discounts, sizes, delivery claims, dates and codes only from the owner or projectkaizen.in at the time. No health, weight-loss or performance claims. No fake scarcity (countdown or "only 3 left") unless it is real.
 - Third-party characters and artwork: THE OGRE - YUJIRO HANMA t-shirt (Baki), the Toji "Obsession" design and any other design based on a third-party character (his folder also has files named baki and toji): show only the owner's real photos of the product exactly as it is. Never redraw, animate, recolour or generate that character; do not use the character in banners, flyers or videos beyond the real product photo. If the owner wants more, ask him to confirm he holds the licence.

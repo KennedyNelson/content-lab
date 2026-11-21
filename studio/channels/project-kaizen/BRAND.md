@@ -1,11 +1,13 @@
 # Brand kit (2026-11-21, from the owner's techpacks and website)
+- CORE THEME (owner: "very important", always apply): Project Kaizen is a clothing brand built on continuous improvement and the principle "1% better every day". The merch exists to spread that idea and motivation. Every font, layout, caption and video choice must serve this theme.
+- Fonts are NOT fixed (owner 2026-11-21): change the typeface per piece to whatever best matches the theme. Stint Ultra Condensed / Anton are defaults only; no need to ask for an exact brand font.
 - Name: Project Kaizen. Site: https://projectkaizen.in/ . Instagram: @projectkaizenclo (site) / @projectkaizen (hang tag): confirm. Motto: 1% Better Every Day.
 - Logo files (all white on transparent, from the owner's finals; originals up to 15000 px are on his Mac, repo copies are 2400 px wide):
   - assets/logo-antlers-white.png: antlers only.
   - assets/logo-antlers-tagline-white.png: antlers + wide-tracked "1% BETTER EVERY DAY".
   - assets/logo-antlers-wordmark-tagline-white.png: antlers + "PROJECT KAIZEN" + tagline (main lockup).
   - assets/tags/: hang tag front and back art, front/back mock; assets/print/: Discipline and Arise print art.
-- Wordmark/headline lettering: a heavy condensed slab-serif in caps (distressed version on Arise and Stay Hard). Closest free font: Stint Ultra Condensed (OFL), already in assets/fonts and used by brand.css. Owner can send the exact font.
-- Colours: Jet Black Pantone 19-0303 TCX, Bright White Pantone 11-0601 TCX only (white on black everywhere: garments, tags, bag). A blue Arise colourway appeared in an earlier techpack: ask if produced. See brand.css.
+- Wordmark/headline lettering: a heavy condensed slab-serif in caps (distressed version on Arise and Stay Hard). Closest free font: Stint Ultra Condensed (OFL), already in assets/fonts and used by brand.css. No exact font required (see core theme above).
+- Colours: Jet Black Pantone 19-0303 TCX, Bright White Pantone 11-0601 TCX only (white on black everywhere: garments, tags, bag). A blue Arise colourway appeared in an earlier techpack but the site shows none (2026-11-21): treat as not produced. See brand.css.
 - Products and labels: see PRODUCTS.md. Garment facts common to the lines: unisex, regular fit, XS to XXL, 95% cotton 5% elastane (sleeveless, 220 GSM) with 1x1 white rib, made in India, woven brand label, DTF care sticker, black poly bag, hang tag with QR.
 - Contact/print details for flyers (phone, address, QR to the site): owner to provide; generate any QR only from the real URL.

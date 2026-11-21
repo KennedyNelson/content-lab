@@ -3,7 +3,7 @@
 Raw, disciplined, gym-and-street. Dark and high contrast with one hot accent. Big condensed uppercase headlines, short lines, lots of black. Motivational but never preachy. Looks like gear for people who train, also wearable on the street.
 
 ## Colour and type (brand.css, from the techpacks)
-- Monochrome: Jet Black (Pantone 19-0303 TCX, screen #111111) with Bright White (Pantone 11-0601 TCX, screen #f4f5f0) for print, rib and labels. Arise also exists in a blue colourway (screen #2f3b9e, approximate): use blue only for that product. No red or other accent colour.
+- Monochrome: Jet Black (Pantone 19-0303 TCX, screen #111111) with Bright White (Pantone 11-0601 TCX, screen #f4f5f0) for print, rib and labels. The blue Arise colourway was not produced (2026-11-21): no blue. No red or other accent colour.
 - Emphasis without a second colour: the accent word is a hollow white outline; CTA pill is white with black text.
 - Display: Anton (close to the brand's condensed caps; Arise uses a distressed condensed font and the antler mark uses wide-tracked "1 % B E T T E R  E V E R Y  D A Y"). Body: Montserrat. Tagline always wide-tracked caps.
 - Logo: white antler mark, studio/channels/project-kaizen/assets/logo-antlers-white.png (templates add it automatically). Wordmark "PROJECT KAIZEN" is a condensed bold caps text lockup: ask the owner for the vector wordmark file for large use.
@@ -31,4 +31,5 @@ Raw, disciplined, gym-and-street. Dark and high contrast with one hot accent. Bi
 1% Better Every Day. / Execute, regardless. / If not now, when? / Thank you for choosing us. / Move forward. Keep showing up. / Strength over comfort. / Embrace the pain. / Discipline wins. / Arise. / Built for the grind. / New drop. Link in bio.
 
 ## Approved / rejected
-(none yet: add each owner decision here in the same session)
+- 2026-11-21 owner decisions: (1) Yujiro shirt = "THE OGRE - YUJIRO HANMA T-Shirt". (2) Blue Arise: not on the site, treat as not produced; no blue. (3) Real product photos = those on projectkaizen.in. (4) Neck woven label file comes later. (5) Font is flexible per piece; the fixed rule is the theme "1% better every day" (continuous improvement), which every piece must express.
+- Approved layouts: (none yet)

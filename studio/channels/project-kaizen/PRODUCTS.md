@@ -13,18 +13,19 @@ Prices and stock come from projectkaizen.in or the owner at the time, never from
 - Front: antlers + "PROJECT KAIZEN" + wide-tracked "1% BETTER EVERY DAY" at the chest, 4" high (screen print).
 - Back: heavy distressed "ARISE" with "IF NOT NOW, WHEN?" curved under it, 13" wide (screen print); small QR / care / made-in-India block (premium DTF) 1" below the collar on the inside back. NOTE: one techpack measurement page still shows the old line "IT'S TIME TO CHANGE"; the final print file says "IF NOT NOW, WHEN?": use the final wording.
 - Measurements (inches, M / L): length 26.5 / 27; shoulders 17.5 / 18; chest 18.5 / 19.
-- Art: assets/print/arise-back-print-white.png. The owner's earlier techpack also showed a blue colourway (Pantone "Bluing"): ask whether it was produced.
+- Art: assets/print/arise-back-print-white.png. Blue colourway: the owner's earlier techpack showed one, but projectkaizen.in (checked 2026-11-21) lists no colour options for Arise, so treat Arise as black only and do not promote blue. Site showed sizes S-XL for Arise, all marked unavailable that day: re-check stock before any promo.
 
-## 3. YUJIRO EMBRACE, style PK-AC-002, crew-neck t-shirt (character-based)
+## 3. THE OGRE - YUJIRO HANMA T-Shirt, style PK-AC-002, crew-neck t-shirt (character-based)
+(Name confirmed by the owner 2026-11-21: "The Ogre". "Yujiro Embrace" was only the techpack working name.)
 - Use: gym and sports. White 1x1 cuff rib on collar and sleeve hems, black strip at the centre of the rib.
 - Front: antlers above "STAY HARD" (distressed slab, 12" wide, rules either side), chest (premium screen print).
 - Back: "EMBRACE PAIN" lettering above an illustration of the manga character Yujiro Hanma with fists (premium screen print).
 - Measurements (inches, M / L): length 26.5 / 27; shoulders 17 / 17.5; chest 19 / 20.
 - The character illustration is third-party artwork: it is NOT stored in this repo. Use only the owner's real product photos of this shirt (see RULES.md).
-- The website listed this product as "THE OGRE - YUJIRO HANMA T-Shirt": confirm the naming (Yujiro Embrace vs The Ogre) before writing copy.
+- Product name for all copy: THE OGRE - YUJIRO HANMA T-Shirt (owner confirmed).
 
 ## Packaging and labels (all three)
-Hang tag (black, punched): front big antlers + "PROJECT KAIZEN" + tagline; back "THANK YOU! FOR CHOOSING US", QR "SCAN TO CHECK US OUT!", @projectkaizen and www.projectkaizen.in. Art in assets/tags/. Poly bag: matte black, ziplock, same front/back art. Neck: black woven label "PROJECT KAIZEN" (the owner has not yet sent that file) and the DTF care sticker (QR, 95% cotton 5% elastane, size M, wash icons, 30 degrees, made in India, www.projectkaizen.in).
+Hang tag (black, punched): front big antlers + "PROJECT KAIZEN" + tagline; back "THANK YOU! FOR CHOOSING US", QR "SCAN TO CHECK US OUT!", @projectkaizen and www.projectkaizen.in. Art in assets/tags/. Poly bag: matte black, ziplock, same front/back art. Neck: black woven label "PROJECT KAIZEN" (owner will send that file later) and the DTF care sticker (QR, 95% cotton 5% elastane, size M, wash icons, 30 degrees, made in India, www.projectkaizen.in).
 
 ## Promo angles that are true today
-"1% Better Every Day"; made in India; unisex XS-XXL; sleeveless tanks for gym and sports (Discipline: "Execute, regardless."; Arise: "If not now, when?"); Yujiro Embrace for gym and sports ("Stay hard", "Embrace pain"). No claims about performance or results. Other lines in his folder (Oversized, Polo, Compression, Obsession, Dominate, Indian, Track) are not confirmed as made: ask before promoting.
+"1% Better Every Day"; made in India; unisex XS-XXL; sleeveless tanks for gym and sports (Discipline: "Execute, regardless."; Arise: "If not now, when?"); The Ogre - Yujiro Hanma tee for gym and sports ("Stay hard", "Embrace pain"). No claims about performance or results. Other lines in his folder (Oversized, Polo, Compression, Obsession, Dominate, Indian, Track) are not confirmed as made: ask before promoting.
