@@ -13,7 +13,7 @@ Prices and stock come from projectkaizen.in or the owner at the time, never from
 - Front: antlers + "PROJECT KAIZEN" + wide-tracked "1% BETTER EVERY DAY" at the chest, 4" high (screen print).
 - Back: heavy distressed "ARISE" with "IF NOT NOW, WHEN?" curved under it, 13" wide (screen print); small QR / care / made-in-India block (premium DTF) 1" below the collar on the inside back. NOTE: one techpack measurement page still shows the old line "IT'S TIME TO CHANGE"; the final print file says "IF NOT NOW, WHEN?": use the final wording.
 - Measurements (inches, M / L): length 26.5 / 27; shoulders 17.5 / 18; chest 18.5 / 19.
-- Art: assets/print/arise-back-print-white.png. Blue colourway: the owner's earlier techpack showed one, but projectkaizen.in (checked 2026-11-21) lists no colour options for Arise, so treat Arise as black only and do not promote blue. Site showed sizes S-XL for Arise, all marked unavailable that day: re-check stock before any promo.
+- Art: assets/print/arise-back-print-white.png. Blue colourway EXISTS: the owner's real product photos (2026-11-21) show a blue Arise with white rib, and the Project Kaizen front print, though projectkaizen.in lists no colour options for Arise. Blue is allowed for Arise only; ask before promoting it as a buyable colour. Site showed sizes S-XL for Arise, all marked unavailable that day: re-check stock before any promo.
 
 ## 3. THE OGRE - YUJIRO HANMA T-Shirt, style PK-AC-002, crew-neck t-shirt (character-based)
 (Name confirmed by the owner 2026-11-21: "The Ogre". "Yujiro Embrace" was only the techpack working name.)

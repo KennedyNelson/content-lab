@@ -8,6 +8,6 @@
   - assets/logo-antlers-wordmark-tagline-white.png: antlers + "PROJECT KAIZEN" + tagline (main lockup).
   - assets/tags/: hang tag front and back art, front/back mock; assets/print/: Discipline and Arise print art.
 - Wordmark/headline lettering: a heavy condensed slab-serif in caps (distressed version on Arise and Stay Hard). Closest free font: Stint Ultra Condensed (OFL), already in assets/fonts and used by brand.css. No exact font required (see core theme above).
-- Colours: Jet Black Pantone 19-0303 TCX, Bright White Pantone 11-0601 TCX only (white on black everywhere: garments, tags, bag). A blue Arise colourway appeared in an earlier techpack but the site shows none (2026-11-21): treat as not produced. See brand.css.
+- Colours: Jet Black Pantone 19-0303 TCX, Bright White Pantone 11-0601 TCX only (white on black everywhere: garments, tags, bag). Blue Arise exists (owner's real photos 2026-11-21) but is not listed on the site: blue only for Arise, ask before promoting it as buyable. See brand.css.
 - Products and labels: see PRODUCTS.md. Garment facts common to the lines: unisex, regular fit, XS to XXL, 95% cotton 5% elastane (sleeveless, 220 GSM) with 1x1 white rib, made in India, woven brand label, DTF care sticker, black poly bag, hang tag with QR.
 - Contact/print details for flyers (phone, address, QR to the site): owner to provide; generate any QR only from the real URL.
