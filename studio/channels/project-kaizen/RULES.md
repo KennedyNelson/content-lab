@@ -12,3 +12,5 @@
 - Effects pack: for any on-camera clip use ../../EFFECTS-GUIDE.md; one effect every 3 to 6 seconds, never over the face.
 - Log nothing in PUBLISHED.md unless a piece is actually posted (name the account).
 - Repo hygiene: the Yujiro character illustration (Yujiro.png and the Embrace Pain print) stays on the owner's Mac and out of the repo. Product facts (PRODUCTS.md) and the brand's own logos, tags and print lockups (assets/) are committed at reduced size. Originals: ~/Documents/ProjectKaizen and the techpack zips in ~/Downloads.
+- On-screen text rule (owner 2026-11-21): never repeat text that is already printed on a shirt (DISCIPLINE, ARISE, EXECUTE REGARDLESS, IF NOT NOW WHEN, STAY HARD, EMBRACE PAIN, PROJECT KAIZEN, 1% BETTER EVERY DAY). Write fresh promotional lines instead, keep the frame clean, and use motion graphics and strong video effects. The theme (continuous improvement) is carried by new wording such as small steps, show up again, keep improving.
+- Promo scope (owner 2026-11-21): all three tees are promoted together. Hang tag print will use @projectkaizenclo.

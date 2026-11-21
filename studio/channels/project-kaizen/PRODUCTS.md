@@ -25,7 +25,11 @@ Prices and stock come from projectkaizen.in or the owner at the time, never from
 - Product name for all copy: THE OGRE - YUJIRO HANMA T-Shirt (owner confirmed).
 
 ## Packaging and labels (all three)
-Hang tag (black, punched): front big antlers + "PROJECT KAIZEN" + tagline; back "THANK YOU! FOR CHOOSING US", QR "SCAN TO CHECK US OUT!", @projectkaizen and www.projectkaizen.in. Art in assets/tags/. Poly bag: matte black, ziplock, same front/back art. Neck: black woven label "PROJECT KAIZEN" (owner will send that file later) and the DTF care sticker (QR, 95% cotton 5% elastane, size M, wash icons, 30 degrees, made in India, www.projectkaizen.in).
+Hang tag (black, punched): front big antlers + "PROJECT KAIZEN" + tagline; back "THANK YOU! FOR CHOOSING US", QR "SCAN TO CHECK US OUT!", the handle (owner 2026-11-21: the next hang tag print will use @projectkaizenclo) and www.projectkaizen.in. Art in assets/tags/. Poly bag: matte black, ziplock, same front/back art. Neck: black woven label "PROJECT KAIZEN" (owner will send that file later) and the DTF care sticker (QR, 95% cotton 5% elastane, size M, wash icons, 30 degrees, made in India, www.projectkaizen.in).
 
 ## Promo angles that are true today
 "1% Better Every Day"; made in India; unisex XS-XXL; sleeveless tanks for gym and sports (Discipline: "Execute, regardless."; Arise: "If not now, when?"); The Ogre - Yujiro Hanma tee for gym and sports ("Stay hard", "Embrace pain"). No claims about performance or results. Other lines in his folder (Oversized, Polo, Compression, Obsession, Dominate, Indian, Track) are not confirmed as made: ask before promoting.
+
+## Promo status (owner 2026-11-21)
+- Promote all three tees; owner has stock of all three. Prices seen on projectkaizen.in 2026-11-21 (re-check before posting): DISCIPLINE Tank Rs. 899 (was 1,199), ARISE Tank Rs. 699 (was 999), THE OGRE - YUJIRO HANMA T-Shirt Rs. 799 (was 1,299). The site shows no colour options or stock levels; the real Arise photos are blue.
+- The anime character on The Ogre may keep being shown (owner 2026-11-21), still only as the real product photo, never redrawn or animated.
