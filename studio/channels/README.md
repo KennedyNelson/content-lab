@@ -7,7 +7,7 @@ One place per channel, so a new session reads a few short files instead of long 
 - `learn-instagram/` new educational Instagram account (not live yet; account and references pending).
 - `HOOKS.md` the hook rule (mandatory on YouTube and the educational account, optional on kaalujokes).
 - `VOICES.md` the voice rule (expressive, realistic ElevenLabs acting) for all channels.
-- `talking-head/HANDOFF.md` brief for the talking-head editing project (owner on camera).
+- `talking-head/HANDOFF.md` brief for the kaizenKen project (talking-head editing, owner on camera).
 - `youtube/` FunWithKen: same three parts. Channel is PAUSED until the owner finishes setting style, tone, concept and script.
 - Shared stays where it is: `PUBLISHED.md` (log of both channels), `LEMO-INDEX.md`, `TOOLS.md`, `STYLE-LIBRARY.md`, `refs/`, `src/`, `episodes/`.
 Rule: when the owner approves or rejects something, update the channel's STYLE-SHEET.md in the same session. A newer owner note always beats an older line; delete the older line.

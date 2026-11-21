@@ -1,4 +1,4 @@
-# Talking-head editing project (owner on camera): handoff brief
+# kaizenKen project (talking-head editing, owner on camera): handoff brief
 Written 2026-11-21 from the Kalu project, for the new project's first session. The owner films himself talking and is the face of the video. Claude does ALL the editing: cuts, captions, motion graphics, animation inserts, sound effects, music, colour, export.
 
 ## Job
