@@ -32,4 +32,5 @@ Raw, disciplined, gym-and-street. Dark and high contrast with one hot accent. Bi
 
 ## Approved / rejected
 - 2026-11-21 owner decisions: (1) Yujiro shirt = "THE OGRE - YUJIRO HANMA T-Shirt". (2) Blue Arise: not on the site, treat as not produced; no blue. (3) Real product photos = those on projectkaizen.in. (4) Neck woven label file comes later. (5) Font is flexible per piece; the fixed rule is the theme "1% better every day" (continuous improvement), which every piece must express.
+- Instagram handle for all promos: @projectkaizenclo (owner confirmed 2026-11-21).
 - Approved layouts: (none yet)

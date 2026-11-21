@@ -1,7 +1,7 @@
 # Brand kit (2026-11-21, from the owner's techpacks and website)
 - CORE THEME (owner: "very important", always apply): Project Kaizen is a clothing brand built on continuous improvement and the principle "1% better every day". The merch exists to spread that idea and motivation. Every font, layout, caption and video choice must serve this theme.
 - Fonts are NOT fixed (owner 2026-11-21): change the typeface per piece to whatever best matches the theme. Stint Ultra Condensed / Anton are defaults only; no need to ask for an exact brand font.
-- Name: Project Kaizen. Site: https://projectkaizen.in/ . Instagram: @projectkaizenclo (site) / @projectkaizen (hang tag): confirm. Motto: 1% Better Every Day.
+- Name: Project Kaizen. Site: https://projectkaizen.in/ . Instagram: @projectkaizenclo (owner confirmed 2026-11-21; the printed hang tag still says @projectkaizen, so never copy the handle from the tag art). Motto: 1% Better Every Day.
 - Logo files (all white on transparent, from the owner's finals; originals up to 15000 px are on his Mac, repo copies are 2400 px wide):
   - assets/logo-antlers-white.png: antlers only.
   - assets/logo-antlers-tagline-white.png: antlers + wide-tracked "1% BETTER EVERY DAY".

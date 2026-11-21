@@ -6,7 +6,7 @@ Owner's working folder: ~/Documents/ProjectKaizen on his Mac (Designs, Tshirts, 
 
 ## Known facts (from the owner, his techpacks and projectkaizen.in, checked 2026-11-21)
 - Shopify store for India, prices in INR. Motto "1% Better Every Day"; positioning "not just a fashion brand, it is a lifestyle"; goal: inspire people to become the best version of themselves. Instagram @projectkaizenclo. Audience: everyone (gym-goers, runners, street-style buyers).
-- Garments are made in India, unisex, sizes XS to XXL; hang tag front antler logo, back "Thank you for choosing us", QR to projectkaizen.in. Tag text shows @projectkaizen while the website shows @projectkaizenclo: ask which handle is current.
+- Garments are made in India, unisex, sizes XS to XXL; hang tag front antler logo, back "Thank you for choosing us", QR to projectkaizen.in. Correct Instagram handle: @projectkaizenclo (owner confirmed 2026-11-21). The hang tag prints @projectkaizen, which is not the current handle.
 - Products on the site that day: DISCIPLINE Tank, ARISE Tank, THE OGRE - YUJIRO HANMA T-Shirt. Prices and discounts change: read them from the site or the owner at the time, never from this file.
 - Tone: motivational, direct, short imperative sentences, capitalised emphasis ("EMBRACE THE PAIN"), occasional emoji.
 
