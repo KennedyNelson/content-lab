@@ -22,7 +22,7 @@ Educational reels, mixed topics every day: crazy facts, space, science, what-if,
 - Shared in repo: engines, style library (studio/LEMO-INDEX.md, styles-pack, variants), sfx_library, TOOLS.md, refs, PUBLISHED.md (log of posted videos), channel rule files. Separate per account: its channels/<account> folder, project memory, Instagram connection/ID, daily task.
 
 ## Skills
-- No dedicated skill exists for this account yet; this folder is its rulebook. Account-level skills still apply: shorts-animation-styles (all visual styles + build toolkit), remotion best-practices skills, video-making, reels-caption-and-audit (caption + exactly 5 hashtags + audit), reels-niche-research (adapt to education niche). instagram-reels-studio and fun-with-ken-studio are for the other two accounts; where a skill contradicts the files in this folder, these files win. After a few reels the stable rules can be turned into a proper skill.
+- Thin skill professor-jhatu-studio now exists (a pointer to this folder; the repo files win). This folder is the rulebook. Account-level skills still apply: shorts-animation-styles (all visual styles + build toolkit), remotion best-practices skills, video-making, reels-caption-and-audit (caption + exactly 5 hashtags + audit), reels-niche-research (adapt to education niche). instagram-reels-studio and fun-with-ken-studio are for the other two accounts; where a skill contradicts the files in this folder, these files win. After a few reels the stable rules can be turned into a proper skill.
 
 ## Tools (a fresh workspace starts empty; reinstall each session, see studio/TOOLS.md)
 - ffmpeg: installed. Playwright + Chromium preinstalled (do not run playwright install).
@@ -33,6 +33,11 @@ Educational reels, mixed topics every day: crazy facts, space, science, what-if,
 - yt-dlp: installed but YouTube is blocked by the proxy; use vidssave.com in Chrome or ask the owner for the file.
 - Claude cannot hear audio or watch full video: QA uses contact sheets, loudness envelopes and silencedetect.
 - Posting: Composio INSTAGRAM_POST_IG_USER_MEDIA (REELS, video_url = raw GitHub URL of the MP4 hosted on main, share_to_feed true) then INSTAGRAM_POST_IG_USER_MEDIA_PUBLISH (max_wait_seconds 180). Voices: ElevenLabs via Zapier (selected_api App226160CLIAPI, action text_to_speech).
+
+## Status 2026-11-21
+- Daily scheduled task trig_01EzkhdZAXvd9G7qK4KwckAz is LIVE (trial of a few days): starts 6:41 pm IST, aims to go live about 8 pm, posts only if all QA checks pass, voices/topics/language chosen by the task. First run: 2026-11-21. The Kalu task is paused; the FunWithKen YouTube task (9 am IST) is live. All three share one ElevenLabs Starter plan (30,000 credits a month).
+- To change anything about the task (time, language mix, voices), update the task prompt with update_trigger and this folder's RULES.md.
+- After the first runs: review PUBLISHED.md, the Instagram insights (INSTAGRAM_GET_IG_MEDIA_INSIGHTS) and the report messages, then tune STYLE-SHEET.md.
 
 ## Still needed from the owner
 Reference reels (this account and YouTube), voices per language, daily posting time, then the owner says to create the daily scheduled task. Study references once, write the lessons into STYLE-SHEET.md, keep contact sheets, ask before keeping full videos.
