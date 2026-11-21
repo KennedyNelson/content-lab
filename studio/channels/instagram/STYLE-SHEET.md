@@ -29,4 +29,4 @@ kirahy_mation, local__guyy, animation__world1, wag_guy, _tushtoonz, rcccreator.d
 - Flat 2D, soft solid fills, thin dark outlines, subtle cel shade. Characters wear plain solid tees (blue, mustard) and simple trousers; faces: big white oval eyes with small pupils (eyes always open), simple mouths.
 - One bold setup line in a white rounded box at the top of the frame (Hinglish or English); it sets the whole joke. Our reels use the same single top line.
 - Props carry the joke (TV with sticker, bike, sofa with samosas, garland frame); the payoff is an acted reaction or a visual swap, then an abrupt end.
-- Note: kp is mostly a locked camera, while our approved benchmark (date-poop) used fast cuts. Choose per joke: locked and acted for one-beat gags, fast cuts for story or escalation reels.
+- Owner decision (2026-11-21): use BOTH grammars, chosen by script type. One-beat gags, single-situation reactions, short dialogue in one place: kp-style locked frame with puppet acting and a top setup line. Story, escalation or multi-location scripts: fast cuts (new angle every 1 to 2.5 s) like the approved date-poop reel.
