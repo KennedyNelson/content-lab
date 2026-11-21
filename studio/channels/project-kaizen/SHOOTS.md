@@ -7,7 +7,9 @@ Owner asked 2026-11-21 to keep all shoot media at full quality for future promos
   - 2026-05-01 Product shoot (Pixel, all three products): 16 photos (https://drive.google.com/drive/folders/1b1PzpVVH9_-fDcW-qg2TcnkyDCTJRg1A)
   - 2026-05 Discipline model shoot (shot 2026-05-10, edits 2026-05-17): 20 images (https://drive.google.com/drive/folders/1rNv6kcrz0vkDoEZI_erldlCD2NuSrdxl)
   - 2026-05-10 Discipline beach shoot (original camera frames): 19 photos (https://drive.google.com/drive/folders/1nLjTToSiBHFcl-1wq1tZkTJLPywMyYqp)
+  - 2026-05 Product and model edits, logo (Photoroom + Pixel, sent 2026-11-21): 15 images (https://drive.google.com/drive/folders/1OGdsgLwSinvxe9idTM4GjX9NMg78CKF3)
 - Owner's Mac: ~/Documents/ProjectKaizen/Shoots/2026-05-10 Arise model shoot/ holds the two 4K videos (347 MB; Drive upload from the session is capped at 10 MB, so the videos are only on the Mac; the owner may add them to Drive by hand).
+- Owner's Mac, second folder: ~/Documents/ProjectKaizen/Shoots/2026-05-03 Product videos (vertical 1440x2560)/ holds the three product videos in section F (39 MB; just over the Drive upload cap from the session).
 - To use a photo: download from Drive via the owner or the Drive connector; do not re-save over the originals.
 
 ## A. Arise model shoot, 2026-05-10 (blue ARISE tank, black track pants)
@@ -106,5 +108,37 @@ Same session as section D, but these are the raw JPEGs (not Photoroom edits). Co
 | e19 | 1654578.jpg | front, smiling at camera, arms open (warm, friendly) | 1449x2576 |
 Best picks: e07 (flex pose, back print: 'progress' energy for a reel or poster), e08 (square back crop, poster/feed), e02/e10/e12/e17 (clean back print with sea, room for headline in the sky), e19 (smiling front, warm offer post), e05 (plain front). Sky area at the top of the vertical frames is good for text. These are untouched originals: pair with section D edits for variety.
 
+## F. Product and model edits, logo, and three product videos (sent 2026-11-21; shot 2026-04-05 to 2026-05-05)
+Mostly Photoroom cut-outs and Pixel originals of the real garments. Content tags read from the images; Drive names are the original file names.
+
+| # | File | Content | Size |
+|---|---|---|---|
+| f01 | Photoroom-20260505_004811582.png | Arise, model BACK, green backdrop (print clear, 'If not now, when?') | 2048x2048 |
+| f02 | PXL_20260501_101758517.PORTRAIT.png | Arise front, angled close-up on green, neck label and tag visible. NOT ON DRIVE (3.7 MB, over the per-call limit); still in the chat attachments | 1440x2560 |
+| f03 | Photoroom-20260504_232558250.png | Arise front flat lay on green, tag, logo and 1% tagline | 2048x2048 |
+| f04 | PXL_20260501_103854290_1.png | Arise back flat lay on green, angled, 'Thank you' hang tag with QR | 2048x2048 |
+| f05 | Screenshot_20260504-035840.png | Instagram screenshot of @projectkaizenclo post 'DISCIPLINE - FLAMES EDITION' (reference of a live post, not a shoot photo) | 864x1920 |
+| f06 | PXL_20260501_103053138.png | Discipline back close-up, maroon backdrop, print and rib trim | 1440x2560 |
+| f07 | PXL_20260501_102820622.png | Discipline flame detail close-up, folded, maroon | 1440x2560 |
+| f08 | Photoroom-20260503_220739877.png | Discipline front flat lay, maroon (tagline, flames) | 2114x1970 |
+| f09 | PXL_20260501_1029023022_3.png | Discipline back flat lay, maroon, angled | 1866x2560 |
+| f10 | PXL_20260501_1029023022_1.png | Discipline back flat lay, white backdrop | 1866x2560 |
+| f11 | PXL_20260501_1027558082.png | Discipline front flat lay, white backdrop, label visible | 2152x2115 |
+| f12 | PXL_20260405_172025014.PORTRAIT_5.png | Arise, model BACK, black backdrop (cut-out edit) | 2048x2048 |
+| f13 | PXL_20260405_172025014.PORTRAIT_4.png | Arise, model BACK, black backdrop, with neck and shoulders (cut-out edit) | 2048x2048 |
+| f14 | IMG_20260503_143955_560.webp | PROJECT KAIZEN logo lockup: antlers, wordmark, '1% BETTER EVERY DAY', white on black. Brand master for end cards | 4385x3101 |
+| f15 | PXL_20260408_2155270943_6.png | Discipline, model BACK, head down, grey backdrop | 2048x2048 |
+| f16 | PXL_20260408_2155270943_5.png | Discipline, model BACK, head down, light backdrop | 2048x2048 |
+
+Videos (HEVC 1440x2560, 30 fps, AAC audio; Mac only, sha256 verified):
+| File | Length | Content |
+|---|---|---|
+| VID_20260503_023033_995_bsl.mp4 | 10.4 s | frosted bag with logo, Arise front detail, logo end card |
+| VID_20260503_021640_342_bsl.mp4 | 13.1 s | frosted bag, Discipline flame close-up, group shot of three models in Discipline |
+| VID_20260503_021116_046_bsl.mp4 | 10.3 s | frosted bag ('STAY HARD' print), 'EMBRACE PAIN' tee on a table, logo end card |
+These look like finished reveal edits with their own overlay text (some letters are semi-transparent). Check them before reusing as raw footage. The 'STAY HARD / EMBRACE PAIN' tee appears only here: not in PRODUCTS.md, confirm what it is before promoting it.
+
+Best picks: f14 (logo end card), f01/f12/f13 (Arise back on dark or green, strong for the 'If not now, when?' hook), f15/f16 (Discipline model back, clean), f03/f08/f11 (flat fronts for offer posts), f05 is a reference only. Brand colour note: the green and maroon backdrops are part of these product shots; keep them as-is or use the cut-outs on a Kaizen black.
+
 ## Integrity
-Photos: every file size on Drive equals the size received (72 of 72: 17 Arise + 16 product + 20 Discipline model + 19 Discipline beach). Videos: sha256 of the copies on the Mac equals the received files (8ece1137... for 164729, ed451c8f... for 164830).
+Photos: every file size on Drive equals the size received (87 of 88; f02 was too large for one Drive call and is not on Drive: 17 Arise + 16 product + 20 Discipline model + 19 Discipline beach + 15 section F). Videos: sha256 of the copies on the Mac equals the received files (8ece1137... for 164729, ed451c8f... for 164830; section F: 65b35ef2..., 8c90ea6f..., 0bd71504...).
