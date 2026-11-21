@@ -2,17 +2,34 @@
 Owner asked 2026-11-21 to keep all shoot media at full quality for future promos (videos, flyers, posters). Originals are untouched (no resize, no re-encode, sha256 checked against the files received).
 
 ## Where the originals are
-- Google Drive: Project Kaizen / Shoots (https://drive.google.com/drive/folders/1aj20S0S2Kv1wGgm7kQ82GsH9p2HXpKxA)
+Two copies, by design: the Mac is the full set (every photo and video), Drive is the cloud set for when the Mac is offline (phone use). Where a file is missing from Drive, only the size limit of the session's Drive connector (about 3 MB per file) stopped it; none of them is lost.
+
+Owner's Mac, full set, under ~/Documents/ProjectKaizen/Shoots/ (photos copied 2026-11-21, 104 files, sizes verified byte-for-byte against the originals received; videos sha256 verified earlier):
+- 2026-05-01 Product shoot (Pixel)/ : p01-p16 (section C)
+- 2026-05-10 Arise model shoot (photos)/ : a01-a17 with their original camera names (section A)
+- 2026-05-10 Arise model shoot/ : the two 4K videos (section B)
+- 2026-05 Discipline model shoot (shot 2026-05-10, edits 2026-05-17)/ : d01-d20 (section D)
+- 2026-05-10 Discipline beach shoot (photos)/ : e01-e19 (section E)
+- 2026-05-10 Discipline beach shoot (videos)/ : the two beach videos (section E2)
+- 2026-05 Product and model edits, logo (Photoroom + Pixel)/ : f01-f16 and g01-g06 (sections F and G), including the three files that are not on Drive
+- 2026-05-03 Product videos (vertical 1440x2560)/ : three product videos (section F)
+- 2026-05-11 STAY HARD + EMBRACE PAIN tee shoot (yard)/ : h01-h08 (section H)
+- Design files (print-ready originals)/ : OBSESSION and THE ONLY WAY print PNGs (4X and 2X upscaled, 300 DPI)
+Photos keep their original file names, so a name in the tables below finds the file in its folder. Use the Mac copy whenever the Mac is online; never save over the originals.
+
+Google Drive, cloud set: Project Kaizen / Shoots (https://drive.google.com/drive/folders/1aj20S0S2Kv1wGgm7kQ82GsH9p2HXpKxA)
   - 2026-05-10 Arise model shoot (beach + home yard): 17 photos (https://drive.google.com/drive/folders/16MFyt64PySQPSnCfxkOb7l0CNtOwHMpw)
   - 2026-05-01 Product shoot (Pixel, all three products): 16 photos (https://drive.google.com/drive/folders/1b1PzpVVH9_-fDcW-qg2TcnkyDCTJRg1A)
   - 2026-05 Discipline model shoot (shot 2026-05-10, edits 2026-05-17): 20 images (https://drive.google.com/drive/folders/1rNv6kcrz0vkDoEZI_erldlCD2NuSrdxl)
   - 2026-05-10 Discipline beach shoot (original camera frames): 19 photos (https://drive.google.com/drive/folders/1nLjTToSiBHFcl-1wq1tZkTJLPywMyYqp)
-  - 2026-05 Product and model edits, logo (Photoroom + Pixel, sent 2026-11-21): 15 images (https://drive.google.com/drive/folders/1OGdsgLwSinvxe9idTM4GjX9NMg78CKF3)
+  - 2026-05 Product and model edits, logo (Photoroom + Pixel): 19 images (https://drive.google.com/drive/folders/1OGdsgLwSinvxe9idTM4GjX9NMg78CKF3)
   - 2026-05-11 STAY HARD + EMBRACE PAIN tee shoot (yard): 8 photos (https://drive.google.com/drive/folders/1Pud8eVO4QBwoH4aorcrS_lHoBLLb23mc)
-- Owner's Mac: ~/Documents/ProjectKaizen/Shoots/2026-05-10 Arise model shoot/ holds the two 4K videos (347 MB; Drive upload from the session is capped at 10 MB, so the videos are only on the Mac; the owner may add them to Drive by hand).
-- Owner's Mac, second folder: ~/Documents/ProjectKaizen/Shoots/2026-05-03 Product videos (vertical 1440x2560)/ holds the three product videos in section F (39 MB; just over the Drive upload cap from the session).
-- Owner's Mac, third folder: ~/Documents/ProjectKaizen/Shoots/2026-05-10 Discipline beach shoot (videos)/ holds the two beach videos in section E2 (170 MB).
-- To use a photo: download from Drive via the owner or the Drive connector; do not re-save over the originals.
+
+Not on Drive yet (needs a manual upload or Google Drive for desktop on the Mac; the session cannot send files over about 3 MB):
+- All 7 videos (2 Arise 4K, 3 product, 2 beach; 12 MB to 279 MB each).
+- Photos f02 (PXL_20260501_101758517.PORTRAIT.png, 3.7 MB), g01 (PXL_20260405_171855887.PORTRAIT_5.png, 4.6 MB), g03 (PXL_20260405_174608950.PORTRAIT2_10.png, 3.9 MB).
+- The two print-ready design PNGs (19 MB and 14 MB).
+Recommended one-time fix: install Google Drive for desktop on the Mac and mirror ~/Documents/ProjectKaizen/Shoots into Project Kaizen / Shoots on Drive. Everything then syncs to the phone with no further work.
 
 ## A. Arise model shoot, 2026-05-10 (blue ARISE tank, black track pants)
 Garment shown: blue Arise tank with white rib, back print ARISE / IF NOT NOW, WHEN?, front print PROJECT KAIZEN + tagline. The blue colourway is not on the site: ask the owner before promoting it as buyable, and re-check stock. The model's identity is not recorded here.
