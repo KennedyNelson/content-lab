@@ -33,3 +33,8 @@ Hang tag (black, punched): front big antlers + "PROJECT KAIZEN" + tagline; back 
 ## Promo status (owner 2026-11-21)
 - Promote all three tees; owner has stock of all three. Prices seen on projectkaizen.in 2026-11-21 (re-check before posting): DISCIPLINE Tank Rs. 899 (was 1,199), ARISE Tank Rs. 699 (was 999), THE OGRE - YUJIRO HANMA T-Shirt Rs. 799 (was 1,299). The site shows no colour options or stock levels; the real Arise photos are blue.
 - The anime character on The Ogre may keep being shown (owner 2026-11-21), still only as the real product photo, never redrawn or animated.
+
+## Owner overrides (2026-11-21): the techpacks are outdated, so the owner's word wins on any conflict
+- All three tees are 210 GSM (not the 220 in the techpacks). Fabric 95% cotton / 5% elastane, lightweight.
+- Prints are DTF only (the techpacks say screen print for the main prints). Promo wording: "premium, unique DTF prints".
+- Main selling points for ads: premium fabric quality, premium unique DTF prints, supreme 95/5 cotton-elastane blend, lightweight 210 GSM; comfortable for sports, gym, casual wear, streetwear and every occasion.
