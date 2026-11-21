@@ -30,3 +30,6 @@ kirahy_mation, local__guyy, animation__world1, wag_guy, _tushtoonz, rcccreator.d
 - One bold setup line in a white rounded box at the top of the frame (Hinglish or English); it sets the whole joke. Our reels use the same single top line.
 - Props carry the joke (TV with sticker, bike, sofa with samosas, garland frame); the payoff is an acted reaction or a visual swap, then an abrupt end.
 - Owner decision (2026-11-21): use BOTH grammars, chosen by script type. One-beat gags, single-situation reactions, short dialogue in one place: kp-style locked frame with puppet acting and a top setup line. Story, escalation or multi-location scripts: fast cuts (new angle every 1 to 2.5 s) like the approved date-poop reel.
+
+## Hook (owner rule 2026-11-21, all channels)
+Every reel needs a strong opening hook in the first second (relatable moment, shocking line, or what-if). See ../HOOKS.md.
