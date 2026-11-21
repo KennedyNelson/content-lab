@@ -81,3 +81,10 @@ Pace (2026-11-07 Mom 5 min): 21.5 s, 8 short lines, 16 shots (cut every 0.7-2.5 
 - idea (owner): friend calls at the worst moment; friend "कालू कैसा है?", Kalu "काला लंबा है, लेगा क्या? बहन के लंड, कॉल मत करियो आज से"; faaah SFX; no on-screen text beyond top line
 - look: Comic Art (halftone, thick ink), Kalu normal slightly-angry voice (Amit) + Armaan friend (phone filter)
 - insights to read 24-48 h later
+
+### 2026-11-21 Instagram (Professor Jhatu, professor.jhaatuke): "A day on Venus is longer than its year" (English, space fact, 37.2 s)
+- media 17994126983864649, https://www.instagram.com/reel/DgAb4DRGRPd/ (posted about 8:00 pm IST, username verified), caption "Venus: day beats year" + #venus #spacefacts #astronomy #sciencefacts #didyouknow; file 2026-11-21-venus-day.mp4; source studio/episodes/2026-11-21-venus-day
+- topic type: space/astronomy fact; language English (next Professor Jhatu reel: different topic type, Hindi); style: Flat Vector on navy space (styles-pack canvas + render.mjs), amber accent, word-highlight captions
+- voice: ElevenLabs eleven_v4, Alice (Clear, Engaging Educator), one file per line; credits about 240 counted (6,097 of 30,234 used, resets about 2026-12-08)
+- sources: NASA Venus facts (243-day spin, 225-day year, backwards spin, Sun rises in west), Snopes fact check (true)
+- insights to read 24-48 h later
