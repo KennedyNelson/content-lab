@@ -7,3 +7,5 @@
 - Hook: optional, see HOOKS.md. Sound effects only from ../../sfx_library. Voices: see ../VOICES.md.
 - Post via Composio Instagram with ig_user_id 28634952752843590 only (host the MP4 on main of this repo, create container, publish, verify username). Location tag needs a Facebook Page ID (not set).
 - Character, outfit, mouth, Remotion rig and humour-limit details: LEGACY-SKILL.md sections 2 to 2E, 10 to 13 (this file and STYLE-SHEET.md win where they differ).
+
+- When re-enabling the Kalu task (trig_01RDKUhE6z2cLNGnpEorBQ7H), first update its prompt paths: channels/instagram -> channels/kalujokes (folders were renamed to the account names on 2026-11-21).
