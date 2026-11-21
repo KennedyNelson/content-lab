@@ -31,5 +31,5 @@ kirahy_mation, local__guyy, animation__world1, wag_guy, _tushtoonz, rcccreator.d
 - Props carry the joke (TV with sticker, bike, sofa with samosas, garland frame); the payoff is an acted reaction or a visual swap, then an abrupt end.
 - Owner decision (2026-11-21): use BOTH grammars, chosen by script type. One-beat gags, single-situation reactions, short dialogue in one place: kp-style locked frame with puppet acting and a top setup line. Story, escalation or multi-location scripts: fast cuts (new angle every 1 to 2.5 s) like the approved date-poop reel.
 
-## Hook (owner rule 2026-11-21, all channels)
-Every reel needs a strong opening hook in the first second (relatable moment, shocking line, or what-if). See ../HOOKS.md.
+## Hook (owner correction 2026-11-21): OPTIONAL on this account
+Not a hard rule. Real-life relatable scenario reels (Kalu and girlfriend, Kalu and Battery, phone calls, everyday situations) must have NO opening hook line, since it spoils the ending; start directly in the situation. Reels built on a what-if, shocking claim or puzzle may open with a hook. Mix both; choose per script. See ../HOOKS.md.
