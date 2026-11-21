@@ -17,3 +17,11 @@
 - Promo copy rule (owner 2026-11-21, after v1): no generic motivational lines on screen; focus on the products, video effects, motion graphics and animation. Allowed text: brand theme lines ("1% BETTER EVERY DAY", "KAIZEN MENTALITY"), true product facts (cut, fabric, sizes, made in India), prices from the site, offer, call to action, handle and site. For THE OGRE always show the back view (that is where the character is) when naming it; never say "meet the Ogre" over a front view.
 - Standard ending for all promos (owner 2026-11-21): build the lockup from assets/logo-antlers-wordmark-tagline-white.png frame by frame: tagline letters one by one, then PROJECT KAIZEN letter by letter, then left antler, then right antler, then SHOP NOW, site and handle. No opening frame of text: start on product.
 - Ad format (owner 2026-11-21): one separate 9:16 ad per tee (Discipline, Arise, The Ogre), each usable as an Instagram post and a Meta ad, plus one brand video (logo build). Product ads give the product the most screen time, show feature callouts (95/5 blend, DTF prints, 210 GSM, comfort for sports/gym/casual/streetwear/every occasion), then price, then a SHORT end card: punchline and PROJECT KAIZEN already in place, only the antlers animate (left, then right), then SHOP NOW, site, handle. The full letter-by-letter logo build lives only in the brand video.
+
+## Ads v4 changes (2026-11-21, owner feedback)
+- Master logo lockup is now `assets/logo-final-lockup-white.png` (slab-serif PROJECT KAIZEN, tracked "1% BETTER EVERY DAY", two antler halves). The older distressed-wordmark logos are retired for video end cards.
+- No moving top banner/marquee on any ad. No vignette or top darkening: the tee must stay bright; only a light bottom scrim behind price/feature text.
+- Product-only photos must NOT be on the brown wooden table. Use the maroon-backdrop shoot photos or the cleaned versions (real cut-out + maroon backdrop + soft shadow; originals untouched).
+- Arise ad opens on a FRONT view; at most 1-2 back views (one model back + one flat product back); no repeated back shots.
+- Discipline ad includes the maroon product-only shots.
+- Music is synthesized (own): 120 BPM, kick/clap/hats, sub bass, chord stabs, arp lead, risers/crashes; replace with licensed/trending audio at posting if wanted.
