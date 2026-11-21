@@ -1,4 +1,4 @@
-# New educational Instagram account: style sheet (owner brief, 2026-11-21; account name and handle not set yet)
+# Professor Jhatu (handle professor.jhaatuke, ID 28743020845381144): educational Instagram style sheet (owner brief, 2026-11-21). See HANDOFF.md first.
 Reference reels for this account: owner will send them. Add what they teach to this file.
 
 ## Concept
@@ -24,4 +24,4 @@ Reference reels for this account: owner will send them. Add what they teach to t
 - Hook, then the explanation in short steps, then a clear payoff or "now you know" line. Fact-check and note the source in the script file for every fact. Length decided by the topic, usually 20 to 45 s.
 
 ## Open items
-- Account name and handle, Instagram Business/Creator connection and ID, daily post time, voice choices per language, reference reels.
+- Daily post time, voice choices per language, reference reels.
