@@ -9,6 +9,15 @@ Raw, disciplined, gym-and-street. Dark and high contrast with one hot accent. Bi
 - Logo: white antler mark, studio/channels/project-kaizen/assets/logo-antlers-white.png (templates add it automatically). Wordmark "PROJECT KAIZEN" is a condensed bold caps text lockup: ask the owner for the vector wordmark file for large use.
 - Signature elements from the garments: antlers, "1% BETTER EVERY DAY", flame side prints on Discipline, distressed type on Arise, QR "scan to check us out" on tags.
 
+## Design language of the finished garments (analysed from the final art, 2026-11-21)
+- Always white graphics on black. Nothing else: no gradients, no colour, no photos on the garment.
+- Two kinds of lettering: (1) clean heavy condensed slab caps for the wordmark "PROJECT KAIZEN"; (2) the same slab with a worn, distressed (grunge, cracked) texture for the statements ARISE, DISCIPLINE, STAY HARD, EMBRACE PAIN, usually set big and tight, sometimes curved.
+- Tagline "1 % B E T T E R  E V E R Y  D A Y" always in very wide-tracked small caps, under the antlers or wordmark.
+- The antler mark is the symbol: symmetrical, sharp, thin-to-thick strokes, centred above type. Flames (Discipline sides) and a hard-line "stay hard" rule are secondary motifs.
+- Statement + one supporting line: "DISCIPLINE / EXECUTE, REGARDLESS."; "ARISE / IF NOT NOW, WHEN?"; "STAY HARD"; "EMBRACE PAIN". Short, imperative, no exclamation marks.
+- Tags and bag: centred antlers over the wordmark and tagline on black; back "THANK YOU ! FOR CHOOSING US" + QR + handle + site.
+- For promo graphics, reuse this: white on near-black, slab caps (brand.css), distressed texture for the big statement word, antler logo as sign-off.
+
 ## Layout
 - One headline of 2 to 4 words, one supporting line, one call to action pill. Product photo big, cropped tight, bottom or side, fading into black. Handle bottom or top corner.
 - Print: more air; headline 21 mm tall, details 4.6 mm, 8 mm inside trim.

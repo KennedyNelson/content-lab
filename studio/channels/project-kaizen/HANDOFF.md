@@ -20,10 +20,10 @@ Owner's working folder: ~/Documents/ProjectKaizen on his Mac (Designs, Tshirts, 
 | Mockups of product on a model | only from real photos; never invent a garment image |
 
 ## Needed from the owner (open items)
-1. Vector logo and wordmark files exported as SVG/PDF (the folder has .ai only; I used the antler PNG) and the exact brand fonts.
-2. Product photos in full resolution (front, back, detail, on-model) per product; the folder holds techpacks and flats, not photos.
+1. The exact brand font (or confirm Stint Ultra Condensed is close enough) and the neck woven label file.
+2. Photos of the three real shirts in stock (front, back, detail, on-model, flat lay on black, tag and label close-ups). Techpacks and print files are in; real photos are still needed for promos.
 3. What to promote first (a drop, an offer, a festival sale, a new product), the call to action and which Instagram handle is correct.
-4. Which products are live and their current prices; whether Oversized, Polo (1%BETTER), Compression, Obsession, Dominate, Indian and Track lines are launched or still in progress.
+4. Current prices and stock for the three products, the correct name of the Yujiro shirt (Embrace or The Ogre), and whether the blue Arise colourway was made. Other lines in the folder are not confirmed.
 5. Licence status of the character-based designs (Yujiro, Toji, Baki).
 6. Reference brands or posts he likes; the printer's size, paper and CMYK or PDF/X needs for flyers and pamphlets.
 

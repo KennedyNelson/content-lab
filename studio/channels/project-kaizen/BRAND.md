@@ -1,6 +1,11 @@
 # Brand kit (2026-11-21, from the owner's techpacks and website)
 - Name: Project Kaizen. Site: https://projectkaizen.in/ . Instagram: @projectkaizenclo (site) / @projectkaizen (hang tag): confirm. Motto: 1% Better Every Day.
-- Logo: white antler mark, assets/logo-antlers-white.png (from Designs/finalLogo.png, owner file). Wordmark: bold condensed caps "PROJECT KAIZEN" lockup under the antlers on tags and chest prints.
-- Colours: Jet Black Pantone 19-0303 TCX, Bright White Pantone 11-0601 TCX; Arise blue colourway. See brand.css.
-- Garment facts common to the lines: unisex, regular fit, XS to XXL, 95% cotton 5% elastane (sleeveless, 220 GSM) with 1x1 white rib, made in India, woven brand label, DTF care sticker, black poly bag, hang tag with QR.
+- Logo files (all white on transparent, from the owner's finals; originals up to 15000 px are on his Mac, repo copies are 2400 px wide):
+  - assets/logo-antlers-white.png: antlers only.
+  - assets/logo-antlers-tagline-white.png: antlers + wide-tracked "1% BETTER EVERY DAY".
+  - assets/logo-antlers-wordmark-tagline-white.png: antlers + "PROJECT KAIZEN" + tagline (main lockup).
+  - assets/tags/: hang tag front and back art, front/back mock; assets/print/: Discipline and Arise print art.
+- Wordmark/headline lettering: a heavy condensed slab-serif in caps (distressed version on Arise and Stay Hard). Closest free font: Stint Ultra Condensed (OFL), already in assets/fonts and used by brand.css. Owner can send the exact font.
+- Colours: Jet Black Pantone 19-0303 TCX, Bright White Pantone 11-0601 TCX only (white on black everywhere: garments, tags, bag). A blue Arise colourway appeared in an earlier techpack: ask if produced. See brand.css.
+- Products and labels: see PRODUCTS.md. Garment facts common to the lines: unisex, regular fit, XS to XXL, 95% cotton 5% elastane (sleeveless, 220 GSM) with 1x1 white rib, made in India, woven brand label, DTF care sticker, black poly bag, hang tag with QR.
 - Contact/print details for flyers (phone, address, QR to the site): owner to provide; generate any QR only from the real URL.

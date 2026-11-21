@@ -1,7 +1,9 @@
-/* Project Kaizen brand tokens. Source: owner's techpacks (2026-11-21): body Pantone 19-0303 TCX Jet Black, print/rib/label Pantone 11-0601 TCX Bright White; Arise also in a blue colourway. Screen values below are close matches, not Pantone-exact. */
-@font-face{font-family:"KZ Display";src:url("../../effects/fonts/Anton-Regular.ttf")}
+/* Project Kaizen brand tokens. Source: owner's techpacks and final art (2026-11-21): body Pantone 19-0303 TCX Jet Black, print/rib/label Pantone 11-0601 TCX White. Screen values are close matches, not Pantone-exact. */
+/* Display font: the brand's lettering is a heavy condensed slab; Stint Ultra Condensed (OFL) thickened with a stroke is the closest free match. Owner can send the exact font. */
+@font-face{font-family:"KZ Display";src:url("assets/fonts/stint-ultra-condensed-latin-400-normal.woff")}
 @font-face{font-family:"KZ Body";src:url("../../effects/fonts/Montserrat.ttf");font-weight:100 900}
-:root{--bg:#111111;--fg:#f4f5f0;--panel:#1c1c1c;--accent:#f4f5f0;--accent-ink:#111111;--blue:#2f3b9e;--font-display:"KZ Display",Impact,sans-serif;--font-body:"KZ Body",Arial,sans-serif}
-/* monochrome brand: the accent word is hollow (white outline) instead of a second colour */
-.d .acc{color:transparent;-webkit-text-stroke:.025em var(--accent)}
+:root{--bg:#111111;--fg:#f4f5f0;--panel:#1c1c1c;--accent:#f4f5f0;--accent-ink:#111111;--font-display:"KZ Display",Georgia,serif;--font-body:"KZ Body",Arial,sans-serif}
+.d{-webkit-text-stroke:.03em currentColor;zoom:1.22;letter-spacing:.02em}
+/* monochrome brand: the accent word is mid-grey instead of a second colour */
+.d .acc{color:#8f8f8a}
 .logo{background-image:url("assets/logo-antlers-white.png")}

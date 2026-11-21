@@ -10,3 +10,4 @@
 - Images: sizes and print rules in ../../design/README.md. Always preview and read the text of every piece before sending.
 - Effects pack: for any on-camera clip use ../../EFFECTS-GUIDE.md; one effect every 3 to 6 seconds, never over the face.
 - Log nothing in PUBLISHED.md unless a piece is actually posted (name the account).
+- Repo hygiene: the Yujiro character illustration (Yujiro.png and the Embrace Pain print) stays on the owner's Mac and out of the repo. Product facts (PRODUCTS.md) and the brand's own logos, tags and print lockups (assets/) are committed at reduced size. Originals: ~/Documents/ProjectKaizen and the techpack zips in ~/Downloads.
