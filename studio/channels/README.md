@@ -14,7 +14,7 @@ Each account folder has: STYLE-SHEET.md (how it looks/sounds, from approved work
 ## Shared files
 - `HOOKS.md` hook rule (mandatory on YouTube and Professor Jhatu, optional on kalujokes).
 - `VOICES.md` expressive realistic ElevenLabs acting for all accounts.
-- `../TOOLS.md` tools and install notes; `../TOOLKIT-FULL.md` the full animation toolkit text (style picker, build, voices, BGM) archived from the old skill; `../PUBLISHED.md` log of every post, name the account on each line; `../LEMO-INDEX.md`, `../STYLE-LIBRARY.md`, `../styles-pack/`, `../sfx_library/`, `../refs/`, `../src/`, `../episodes/`.
+- `../TOOLS.md` tools and install notes; `../EFFECTS-GUIDE.md` which video effect to use for which moment (talking-head edits and any account; pack in `../effects/`, licences in `../ASSETS.md`); `../TOOLKIT-FULL.md` the full animation toolkit text (style picker, build, voices, BGM) archived from the old skill; `../PUBLISHED.md` log of every post, name the account on each line; `../LEMO-INDEX.md`, `../STYLE-LIBRARY.md`, `../styles-pack/`, `../sfx_library/`, `../refs/`, `../src/`, `../episodes/`.
 
 ## How Claude works (flow)
 Scheduled task prompt (one page) -> clone this repo -> read the account folder + HOOKS.md + VOICES.md -> research -> script -> audio first -> picture -> QA -> post with that account's ID -> log in PUBLISHED.md -> report. Skills are short pointers; where an old skill text or LEGACY-SKILL.md disagrees with a file here, the files here win.
