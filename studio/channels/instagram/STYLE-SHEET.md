@@ -20,3 +20,13 @@ Benchmark reels: date-poop Stickman reel (approved, "dialogue speed, changing fr
 ## Posting
 - Never post before the owner says so. Caption 2 to 5 words plus exactly 5 hashtags. Log in PUBLISHED.md; read insights after 24 to 48 h.
 - Length decided by the joke, usually 12 to 20 s.
+
+## Reference accounts (owner follows these from mai_kaala_hu; always take inspiration from them)
+kirahy_mation, local__guyy, animation__world1, wag_guy, _tushtoonz, rcccreator.d, kp_animatess (permanent styling reference), dream_illustrationn. Video copies of kp_animatess are in outputs/kp_refs (kp_dance_boys, kp_sofa_modern_ladkiyaan, kp_tv_garland, kp_v1 to kp_v5); contact sheet of all: `studio/refs/kp-animatess/kp-all-sheet.jpg`. Other accounts' reels cannot be downloaded in the sandbox; study them in Chrome when needed.
+
+### kp_animatess grammar (read from the 8 reference clips, Nov 21)
+- Length 4 to 12 s. One illustrated set per reel (living room, street, park, road), usually a locked frame with simple puppet acting; motion blur on the background when travelling.
+- Flat 2D, soft solid fills, thin dark outlines, subtle cel shade. Characters wear plain solid tees (blue, mustard) and simple trousers; faces: big white oval eyes with small pupils (eyes always open), simple mouths.
+- One bold setup line in a white rounded box at the top of the frame (Hinglish or English); it sets the whole joke. Our reels use the same single top line.
+- Props carry the joke (TV with sticker, bike, sofa with samosas, garland frame); the payoff is an acted reaction or a visual swap, then an abrupt end.
+- Note: kp is mostly a locked camera, while our approved benchmark (date-poop) used fast cuts. Choose per joke: locked and acted for one-beat gags, fast cuts for story or escalation reels.
