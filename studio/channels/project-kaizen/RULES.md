@@ -25,3 +25,8 @@
 - Arise ad opens on a FRONT view; at most 1-2 back views (one model back + one flat product back); no repeated back shots.
 - Discipline ad includes the maroon product-only shots.
 - Music is synthesized (own): 120 BPM, kick/clap/hats, sub bass, chord stabs, arp lead, risers/crashes; replace with licensed/trending audio at posting if wanted.
+
+## Image quality gate (owner rule, 2026-11-21: "remember this always before selecting the images")
+- Before using ANY photo in an ad, check native resolution and sharpness (Laplacian variance at 1080 px width; roughly >=150 is crisp, <100 is soft) and view the actual frame at full size.
+- Prefer native 9:16 originals (e.g. the 1547x2320 beach-session files on white wall, ~190-225) over Photoroom 2048x2048 squares (~65-100), which look soft when cropped to 9:16 and zoomed.
+- Avoid zooming a soft image; keep zoom <= ~1.1 on sources under 2300 px tall. Dark true blacks, no beach/sea backgrounds for Discipline, no brown table.
