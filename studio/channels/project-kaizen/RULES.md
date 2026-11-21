@@ -30,3 +30,4 @@
 - Before using ANY photo in an ad, check native resolution and sharpness (Laplacian variance at 1080 px width; roughly >=150 is crisp, <100 is soft) and view the actual frame at full size.
 - Prefer native 9:16 originals (e.g. the 1547x2320 beach-session files on white wall, ~190-225) over Photoroom 2048x2048 squares (~65-100), which look soft when cropped to 9:16 and zoomed.
 - Avoid zooming a soft image; keep zoom <= ~1.1 on sources under 2300 px tall. Dark true blacks, no beach/sea backgrounds for Discipline, no brown table.
+- Variety rule (2026-11-21): never use the same pose or near-identical background more than once per ad, and never in adjacent shots. Mix poses (profile, front, back, arm-out), backgrounds (studio grey/white, brick, maroon product-only) and crops. Best crisp Discipline sources: 093 (profile, studio), 087/086 (back, studio), 000/004/016-019 (white wall), 001 (brick), maroon 077-080.
