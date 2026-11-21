@@ -140,5 +140,20 @@ These look like finished reveal edits with their own overlay text (some letters 
 
 Best picks: f14 (logo end card), f01/f12/f13 (Arise back on dark or green, strong for the 'If not now, when?' hook), f15/f16 (Discipline model back, clean), f03/f08/f11 (flat fronts for offer posts), f05 is a reference only. Brand colour note: the green and maroon backdrops are part of these product shots; keep them as-is or use the cut-outs on a Kaizen black.
 
+## G. Model shots: Arise, STAY HARD / EMBRACE PAIN tee, Discipline side pose (sent 2026-11-21; shot 2026-04-05 and 04-08)
+Pixel portrait-mode cut-outs on dark or grey backdrops. All 2048x2048 PNG. Tags read from the images.
+
+| # | File | Content | On Drive |
+|---|---|---|---|
+| g01 | PXL_20260405_171855887.PORTRAIT_5.png (4.6 MB) | Arise: model FRONT (logo, 1% tagline) and BACK side by side on black. Face shown | NO (over the per-call limit); still in the chat |
+| g02 | PXL_20260405_174518023.PORTRAIT2_7.png | EMBRACE PAIN tee, model back, grey backdrop | yes |
+| g03 | PXL_20260405_174608950.PORTRAIT2_10.png (3.9 MB) | STAY HARD front and EMBRACE PAIN back side by side, grey backdrop. Face shown | NO (over the per-call limit); still in the chat |
+| g04 | PXL_20260405_174518023.PORTRAIT2_6.png | EMBRACE PAIN tee, model back | yes |
+| g05 | PXL_20260405_174518023.PORTRAIT2_5.png | EMBRACE PAIN tee, model back, closer crop | yes |
+| g06 | PXL_20260408_2152543422_2.png | Discipline, model side profile, hands clasped, flames clear, grey backdrop (strong 'discipline' mood) | yes |
+
+The black tee with grey-white rib sleeves: front 'STAY HARD' with the antler mark, back 'EMBRACE PAIN' with an anime-style face and two fists. Same product as the 'EMBRACE PAIN' tee in section F videos. Name and licence status still to be confirmed with the owner (the back art is character-based, see the licence note in HANDOFF/BRAND).
+Best picks: g06 (Discipline poster or reel hook), g01 (Arise front plus back in one frame), g04/g02 (back print clean).
+
 ## Integrity
-Photos: every file size on Drive equals the size received (87 of 88; f02 was too large for one Drive call and is not on Drive: 17 Arise + 16 product + 20 Discipline model + 19 Discipline beach + 15 section F). Videos: sha256 of the copies on the Mac equals the received files (8ece1137... for 164729, ed451c8f... for 164830; section F: 65b35ef2..., 8c90ea6f..., 0bd71504...).
+Photos: every file size on Drive equals the size received (91 of 94; f02, g01 and g03 were too large for one Drive call and are not on Drive: 17 Arise + 16 product + 20 Discipline model + 19 Discipline beach + 15 section F + 4 section G). Videos: sha256 of the copies on the Mac equals the received files (8ece1137... for 164729, ed451c8f... for 164830; section F: 65b35ef2..., 8c90ea6f..., 0bd71504...).
