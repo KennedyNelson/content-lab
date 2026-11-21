@@ -39,10 +39,20 @@ Written 2026-11-21 from the Kalu project, for the new project's first session. T
 - Do not commit the owner's raw footage to the repo (large, private): keep raws in the workspace, commit only scripts, templates, edit recipes and contact sheets.
 
 ## Skills
-- None dedicated yet; this folder is the rulebook. Account-level skills that apply: shorts-animation-styles (styles + build toolkit), remotion skills, video-making, reels-caption-and-audit. Turn stable editing rules into a skill after a few videos.
+- None dedicated yet (a thin kaizenKen skill can be proposed after a few videos); this folder is the rulebook. Account-level skills that apply: shorts-animation-styles (styles + build toolkit), remotion skills, video-making, reels-caption-and-audit. Turn stable editing rules into a skill after a few videos.
 
 ## Rules inherited
 English-only replies to the owner. Hooks: a strong starting hook is the default (HOOKS.md); voices per VOICES.md; no unnecessary on-screen text; pick styles per video from the whole library; repeating a style is fine.
 
 ## Needed from the owner
 Channel/platform and language, 2 or 3 reference videos whose editing he loves (study once, write lessons into the style sheet, keep contact sheets), his first raw clip and script/topic, preferred caption look, music taste, whether he wants cinematic colour, and whether Claude should post or only deliver the file.
+
+## Format defaults (until the owner says otherwise)
+- Vertical 9:16, 1080x1920, 30 fps (keep the source frame rate if 60 and the owner wants smoothness), H.264 yuv420p, AAC 192k, -movflags +faststart, CRF 18-20; loudness about -14 LUFS; word captions in the safe area (nothing in the top 240 px or bottom 350 px). For YouTube long form: 1920x1080, same codecs. Always draft low-res first, then final.
+- Delivery: send the final MP4 with SendUserFile (and a short note of what was done); the owner posts manually. Keep a dated edit recipe (cut list, overlay list, SFX list) in studio/episodes/<date>-<slug>/ so edits can be redone, without committing the raw footage.
+
+## Video effects, overlays and assets (the owner will ask Claude to download effects)
+- Allowed and preferred sources: npm and pip packages, GitHub repos/releases (the workspace reaches these), and files the owner uploads. The shell proxy blocks most other websites, so a download from an arbitrary site (effect-pack sites, stock sites) will probably fail: say so plainly, do not retry with workarounds, and ask the owner to upload the file or send a GitHub/npm link.
+- Check the licence before using anything (prefer CC0, MIT, Apache-2.0, CC-BY with credit); never use ripped or paid assets or copyrighted music. Record each asset's source and licence in studio/ASSETS.md (create it) and commit small assets into studio/assets/ (large files stay out of the repo).
+- Good code-based effects that need no downloads: Remotion/HyperFrames transitions, zoom punches, shake, glitch, light leaks and film grain built in canvas/CSS/shaders, kinetic captions, animated lower-thirds, progress bars, number counters, ffmpeg filters (zoompan, xfade, curves, vignette, noise, lut3d for colour LUTs).
+- Packages worth checking when asked: @remotion/transitions, @remotion/motion-blur, @remotion/captions, lottie (@remotion/lottie) with free Lottie JSON from open collections, Lucide icons, free CC0 sound packs on GitHub. Test each in a draft render before relying on it.
