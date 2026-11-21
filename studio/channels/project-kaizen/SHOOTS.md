@@ -8,8 +8,10 @@ Owner asked 2026-11-21 to keep all shoot media at full quality for future promos
   - 2026-05 Discipline model shoot (shot 2026-05-10, edits 2026-05-17): 20 images (https://drive.google.com/drive/folders/1rNv6kcrz0vkDoEZI_erldlCD2NuSrdxl)
   - 2026-05-10 Discipline beach shoot (original camera frames): 19 photos (https://drive.google.com/drive/folders/1nLjTToSiBHFcl-1wq1tZkTJLPywMyYqp)
   - 2026-05 Product and model edits, logo (Photoroom + Pixel, sent 2026-11-21): 15 images (https://drive.google.com/drive/folders/1OGdsgLwSinvxe9idTM4GjX9NMg78CKF3)
+  - 2026-05-11 STAY HARD + EMBRACE PAIN tee shoot (yard): 8 photos (https://drive.google.com/drive/folders/1Pud8eVO4QBwoH4aorcrS_lHoBLLb23mc)
 - Owner's Mac: ~/Documents/ProjectKaizen/Shoots/2026-05-10 Arise model shoot/ holds the two 4K videos (347 MB; Drive upload from the session is capped at 10 MB, so the videos are only on the Mac; the owner may add them to Drive by hand).
 - Owner's Mac, second folder: ~/Documents/ProjectKaizen/Shoots/2026-05-03 Product videos (vertical 1440x2560)/ holds the three product videos in section F (39 MB; just over the Drive upload cap from the session).
+- Owner's Mac, third folder: ~/Documents/ProjectKaizen/Shoots/2026-05-10 Discipline beach shoot (videos)/ holds the two beach videos in section E2 (170 MB).
 - To use a photo: download from Drive via the owner or the Drive connector; do not re-save over the originals.
 
 ## A. Arise model shoot, 2026-05-10 (blue ARISE tank, black track pants)
@@ -155,5 +157,27 @@ Pixel portrait-mode cut-outs on dark or grey backdrops. All 2048x2048 PNG. Tags 
 The black tee with grey-white rib sleeves: front 'STAY HARD' with the antler mark, back 'EMBRACE PAIN' with an anime-style face and two fists. Same product as the 'EMBRACE PAIN' tee in section F videos. Name and licence status still to be confirmed with the owner (the back art is character-based, see the licence note in HANDOFF/BRAND).
 Best picks: g06 (Discipline poster or reel hook), g01 (Arise front plus back in one frame), g04/g02 (back print clean).
 
+## E2. Discipline beach videos, 2026-05-10 (Mac only, sha256 verified)
+| File | Spec | Content |
+|---|---|---|
+| 20260510_165457.mp4 | HEVC 3840x2160 container, 30 fps, 27.9 s, 143 MB | model on the beach in the Discipline tank: back print with waves, arm-out pose, back to camera. Same session as photos e16-e19 (matching 165457 timestamp) |
+| 20260510_165809.mp4 | H.264 about 1014x570 stored (vertical content, rotation flag), 30 fps, 98 s, 27 MB | longer lower-resolution clip, same beach session: back print, arm-out, side look, front with hands on hips (matches photos e01-e15 timestamp). Use for b-roll; use the 4K clip for hero shots |
+Check rotation before editing (the 4K clip is also a vertical shot in a landscape container). Hash prefixes: 71919af2... (165457), a986aa84... (165809).
+
+## H. STAY HARD + EMBRACE PAIN tee shoot, home yard, 2026-05-11 (8 photos, sent 2026-11-21)
+Black tee, white-and-black striped sleeve cuffs, antler mark with 'STAY HARD' on the chest, 'EMBRACE PAIN' with an anime-style face and fists on the back. Real garment on a model in the home yard (red-trimmed house, green-white wall), daylight. Drive names are the camera names, prefix 20260511_.
+
+| # | File | Content | Size |
+|---|---|---|---|
+| h01 | 1127132.jpg | BACK print, model head down, wide shot with house | 1659x2212 |
+| h02 | 1127133.jpg | BACK print, closer, 3/4 turn, head down | 2370x2371 |
+| h03 | 112655.jpg | BACK print, hands on hips, full wide shot | 1659x2212 |
+| h04 | 1125353.jpg | BACK print close crop, head down, watch visible | 2319x2318 |
+| h05 | 112533.jpg | FRONT (STAY HARD), walking, head down, side view | 1659x2212 |
+| h06 | 1125312.jpg | FRONT (STAY HARD), head down, tight | 2500x2502 |
+| h07 | 1125252.jpg | FRONT, facing camera, serious look (hero portrait) | 1931x1932 |
+| h08 | 1125253.jpg | FRONT, same pose as h07 (near duplicate, slight crop difference) | 1931x1932 |
+Best picks: h07 (hero for the tee), h04/h02 (back print), h05 (movement). Product name for this tee is still unconfirmed; the back art is character-based, so check the licence question before promoting it.
+
 ## Integrity
-Photos: every file size on Drive equals the size received (91 of 94; f02, g01 and g03 were too large for one Drive call and are not on Drive: 17 Arise + 16 product + 20 Discipline model + 19 Discipline beach + 15 section F + 4 section G). Videos: sha256 of the copies on the Mac equals the received files (8ece1137... for 164729, ed451c8f... for 164830; section F: 65b35ef2..., 8c90ea6f..., 0bd71504...).
+Photos: every file size on Drive equals the size received (99 of 102; f02, g01 and g03 were too large for one Drive call and are not on Drive: 17 Arise + 16 product + 20 Discipline model + 19 Discipline beach + 15 section F + 4 section G + 8 section H). Videos: sha256 of the copies on the Mac equals the received files (8ece1137... for 164729, ed451c8f... for 164830; section F: 65b35ef2..., 8c90ea6f..., 0bd71504...; section E2: 71919af2..., a986aa84...).
