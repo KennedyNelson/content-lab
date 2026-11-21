@@ -21,8 +21,8 @@ Owner's working folder: ~/Documents/ProjectKaizen on his Mac (Designs, Tshirts, 
 
 ## Needed from the owner (open items)
 1. ANSWERED 2026-11-21: no fixed brand font (vary per piece to fit the "1% better every day" theme). STILL OPEN: neck woven label file (owner will send later).
-2. ANSWERED 2026-11-21: real product images are on projectkaizen.in (Shopify CDN, product pages in PRODUCTS.md); owner will not send separate photos. Use only those for promos.
-3. What to promote first (a drop, an offer, a festival sale, a new product), the call to action and which Instagram handle is correct.
+2. ANSWERED 2026-11-21: owner sent real photos and videos in chat (product shoot, Arise model shoot, Discipline model shoot). Catalogue and storage locations are in SHOOTS.md; site images are the fallback.
+3. ANSWERED 2026-11-21: first promo is an offer for the Discipline tank (9:16 reel, current site discount); handle is @projectkaizenclo. Next promos: ask the owner.
 4. ANSWERED 2026-11-21: shirt name is "THE OGRE - YUJIRO HANMA T-Shirt"; the blue Arise was produced (owner sent real photos) but is not on the site: ask before promoting it. STILL OPEN: current prices and stock (read from the site at the time; Arise showed all sizes unavailable on 2026-11-21). Other lines in the folder are not confirmed.
 5. Licence status of the character-based designs (Yujiro, Toji, Baki).
 6. Reference brands or posts he likes; the printer's size, paper and CMYK or PDF/X needs for flyers and pamphlets.
