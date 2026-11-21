@@ -1,3 +1,6 @@
+# Content Lab (repo KennedyNelson/content-lab, formerly funwithken-videos)
+Shared studio for all three accounts. The skills still mention the old repo name and path /home/claude/funwithken-videos: use KennedyNelson/content-lab and /home/claude/content-lab. Anything new that other projects should have (tools, sounds, components, rules) is saved here and committed.
+
 # Channels folder (2026-11-21)
 One place per channel, so a new session reads a few short files instead of long skills.
 - `instagram/` kaalujokes (mai_kaala_hu): STYLE-SHEET.md (how our reels look and sound, from approved reels and the owner's notes), RULES.md (current rules only), references/ (approved reels and reference clips).
