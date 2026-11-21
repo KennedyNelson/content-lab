@@ -6,6 +6,7 @@ Owner asked 2026-11-21 to keep all shoot media at full quality for future promos
   - 2026-05-10 Arise model shoot (beach + home yard): 17 photos (https://drive.google.com/drive/folders/16MFyt64PySQPSnCfxkOb7l0CNtOwHMpw)
   - 2026-05-01 Product shoot (Pixel, all three products): 16 photos (https://drive.google.com/drive/folders/1b1PzpVVH9_-fDcW-qg2TcnkyDCTJRg1A)
   - 2026-05 Discipline model shoot (shot 2026-05-10, edits 2026-05-17): 20 images (https://drive.google.com/drive/folders/1rNv6kcrz0vkDoEZI_erldlCD2NuSrdxl)
+  - 2026-05-10 Discipline beach shoot (original camera frames): 19 photos (https://drive.google.com/drive/folders/1nLjTToSiBHFcl-1wq1tZkTJLPywMyYqp)
 - Owner's Mac: ~/Documents/ProjectKaizen/Shoots/2026-05-10 Arise model shoot/ holds the two 4K videos (347 MB; Drive upload from the session is capped at 10 MB, so the videos are only on the Mac; the owner may add them to Drive by hand).
 - To use a photo: download from Drive via the owner or the Drive connector; do not re-save over the originals.
 
@@ -79,5 +80,31 @@ Garment shown: Discipline tank. Front: antlers + "1% BETTER EVERY DAY" and flame
 Best picks: d18 (face-on beach hero for an offer or "show up" reel), d19 (back print + wave, poster), d03/d02 (clean wall, room for big type), d06 (clean back print), d10/d08 (flat front, 1% tagline readable, feed posts), d20 (flames clear). The side-pose set (d01-d04, d09, d12, d14, d15, d17, d20) shows the bottom-front flames well. The front tagline is small on the chest: for a flyer pair it with a headline rather than rely on reading the print. Backgrounds in d01-d17 are plain walls: good for text.
 Use rule: real product photos with the garment unaltered are fine; do not retouch the print. These can replace the product-only shots in future Discipline promos (the first draft offer reel used flat product shots only).
 
+## E. Discipline beach shoot, 2026-05-10 (original camera frames, 19 images, sent 2026-11-21)
+Same session as section D, but these are the raw JPEGs (not Photoroom edits). Content tags were read from a contact sheet, so treat them as approximate. Drive names are the original camera names, prefix 20260510_ (e19 = 20260510_1654578.jpg).
+
+| # | File (after 20260510_) | Content | Size |
+|---|---|---|---|
+| e01 | 16580932.jpg | front, head turned down-left, 1% tagline on chest | 1449x2576 |
+| e02 | 165809232.jpg | BACK print, wave behind, hands at hips (print clear) | 1449x2576 |
+| e03 | 16580928_1.jpg | front, looking down, hands on waist, close crop | 1449x2576 |
+| e04 | 16580933.jpg | 3/4 back, looking left at sea, flames and print visible | 1449x2576 |
+| e05 | 16580931.jpg | front, facing camera, relaxed, flames visible | 1449x2576 |
+| e06 | 16580922.jpg | front, arm out, looking at camera, flames | 1449x2576 |
+| e07 | 165809.jpg | BACK print, arm raised in flex pose (strong 'progress' pose) | 1449x2576 |
+| e08 | 165809233.jpg | BACK print close crop, square (poster-ready) | 2019x2020 |
+| e09 | 165809213.jpg | front, arm out, looking down, square crop | 2116x2117 |
+| e10 | 165809234.jpg | BACK print, wave, standing straight | 1449x2576 |
+| e11 | 165809214.jpg | front, arm out, looking down, flames | 1449x2576 |
+| e12 | 16580924.jpg | BACK print centred, wave breaking behind | 1449x2576 |
+| e13 | 1658098.jpg | side-back, checking watch, print on shoulder | 1449x2576 |
+| e14 | 16580935.jpg | BACK print, arms folded, head turned | 1449x2576 |
+| e15 | 16580934.jpg | side, looking at camera over shoulder, watch check | 1449x2576 |
+| e16 | 1654576.jpg | front, head tilted down, 3/4 | 1449x2576 |
+| e17 | 1654571.jpg | BACK print, flames at hem, standing at shore | 1449x2576 |
+| e18 | 165457_1.jpg | 3/4 back, looking left, big wave | 1449x2576 |
+| e19 | 1654578.jpg | front, smiling at camera, arms open (warm, friendly) | 1449x2576 |
+Best picks: e07 (flex pose, back print: 'progress' energy for a reel or poster), e08 (square back crop, poster/feed), e02/e10/e12/e17 (clean back print with sea, room for headline in the sky), e19 (smiling front, warm offer post), e05 (plain front). Sky area at the top of the vertical frames is good for text. These are untouched originals: pair with section D edits for variety.
+
 ## Integrity
-Photos: every file size on Drive equals the size received (53 of 53: 17 Arise + 16 product + 20 Discipline model). Videos: sha256 of the copies on the Mac equals the received files (8ece1137... for 164729, ed451c8f... for 164830).
+Photos: every file size on Drive equals the size received (72 of 72: 17 Arise + 16 product + 20 Discipline model + 19 Discipline beach). Videos: sha256 of the copies on the Mac equals the received files (8ece1137... for 164729, ed451c8f... for 164830).
