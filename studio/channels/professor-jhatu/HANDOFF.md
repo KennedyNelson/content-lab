@@ -4,7 +4,7 @@ Written 2026-11-21 from the Kalu project, for the new project's first session. R
 ## Account
 - Name: Professor Jhatu. Instagram handle: professor.jhaatuke. Instagram user ID: 28743020845381144 (already connected through Composio, account alias instagram_geira-imam).
 - Composio also holds the Kalu account (kis_kadar_kaali, ID 28634952752843590). The Professor Jhatu account is currently Composio's DEFAULT, so EVERY post call must pass this exact ig_user_id, and after publishing verify the returned username is professor.jhaatuke. Never post this account's reels with the Kalu ID or the reverse.
-- Daily scheduled task: NOT created yet. Needs the owner's posting time and voices, then create it (cloud-only, no computer needed), modelled on the Kalu task but using this folder's rules.
+- Daily scheduled task: created 2026-11-21 (trial of a few days); its prompt is the one-page recipe, rules are in this folder.
 
 ## Concept (owner brief)
 Educational reels, mixed topics every day: crazy facts, space, science, what-if, history, Google-style coding interview questions, interview puzzles, intriguing scenarios, relatable Claude-and-engineer chats; follow current affairs and trends. Teach like to a 5-year-old. Quick, frames changing, easy on first listen. Clean, friendly, advertiser-safe tone. Characters optional (faceless fine). ONE language per reel (Hindi, English or other, never mixed); same topic can be re-made in another language as a separate reel. English-only replies to the owner.
@@ -12,7 +12,7 @@ Educational reels, mixed topics every day: crazy facts, space, science, what-if,
 ## Rules that apply (all in the repo, studio/channels/)
 - HOOKS.md: a very strong starting hook is MANDATORY on this account.
 - VOICES.md: expressive, realistic ElevenLabs acting (soft, murmur, shy, embarrassed, etc.), eleven_v4 via Zapier, each line separate. Stay on ElevenLabs (owner decided; Starter plan Rs 528/month, 30,000 credits shared by all accounts, check balance before every run).
-- learn-instagram/STYLE-SHEET.md and RULES.md: this account's look, tone, script format.
+- professor-jhatu/STYLE-SHEET.md and RULES.md: this account's look, tone, script format.
 - Motion graphics (owner wants this to be a strength): clean canvas, one idea on screen at a time, draw-on diagrams, animated analogies, code blocks that type themselves, counters/timelines, light camera moves. Reusable components should be built once in studio/motion/ (not yet created) and committed so all accounts share them.
 
 ## Repo and GitHub

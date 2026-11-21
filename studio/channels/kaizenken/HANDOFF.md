@@ -1,10 +1,10 @@
-# kaizenKen project (talking-head editing, owner on camera): handoff brief
+# kaizenKen project (kaizenken editing, owner on camera): handoff brief
 Written 2026-11-21 from the Kalu project, for the new project's first session. The owner films himself talking and is the face of the video. Claude does ALL the editing: cuts, captions, motion graphics, animation inserts, sound effects, music, colour, export.
 
 ## Job
 - Input: raw clips the owner uploads (phone footage, vertical 9:16 mostly; may also be 16:9 for YouTube). Output: finished edited video(s) as MP4, delivered with SendUserFile and, if the owner asks, posted.
 - Target look: cinematic and punchy. Tight cuts, kinetic word captions, animated motion graphics that explain what he says, zooms/punch-ins, animation or b-roll cutaways, well-placed sound effects and music, graded colour.
-- Platform, channel name, language(s) and posting plan: NOT decided. Ask the owner first (Instagram Reels, YouTube Shorts/long, other; handle; one language per video). Create channels/talking-head STYLE-SHEET.md and RULES.md from the answers, as the other accounts have.
+- Platform, channel name, language(s) and posting plan: NOT decided. Ask the owner first (Instagram Reels, YouTube Shorts/long, other; handle; one language per video). Create channels/kaizenken STYLE-SHEET.md and RULES.md from the answers, as the other accounts have.
 
 ## Editing workflow (default)
 1. Intake: ffprobe each clip (length, fps, resolution, audio). Convert phone footage (HEVC/VFR) to constant frame rate H.264 working copies; originals untouched.
