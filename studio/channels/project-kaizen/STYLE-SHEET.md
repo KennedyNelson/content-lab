@@ -44,3 +44,7 @@ Owner feedback: the glitchy video ads read as "AI slop"; wanted natural, minimal
 2. Red type poster (Toji "DISCIPLINE" style): off-white paper, giant condensed distressed red DISCIPLINE, model in B/W in front (photo 000), "TALENT? ONLY" top-left, thin rule, plus marks; no character name, no motivational lines.
 3. Smoky offer ad (muscleblaze style): charcoal smoke gradient, model 3/4 (photo 004) fading into the dark, small offer badge top-left (Rs. 899 / save Rs. 300 / site), Shop now pill.
 Principles: no glitch/RGB split, no neon, generous negative space, small tracked type (DM Sans), real photo only; backgrounds/typography are graphics. Next step: animate these as minimal video ads.
+
+## Discipline ad set v1, original design (2026-11-22)
+Owner rejected the template-based stills; wanted an own aesthetic, minimal, sleek set focused on the product and USPs. Six 1080x1920 images, one USP each: hero (activewear / worn for everything), fabric (maroon macro 077), blend (95/5, maroon back flat 080), lightweight (210 GSM, light studio, back view 017), DTF print (maroon flame 078), every occasion + price (triptych 000/017/004).
+System: alternating warm-paper light slides (model cut-outs, legs fade out) and true-black-on-maroon product photos; DM Sans light headlines (ink + maroon second line), tracked small caps labels, hairline rules, logo lockup + site footer, light grain. No effects, no on-screen repeats of shirt text.
