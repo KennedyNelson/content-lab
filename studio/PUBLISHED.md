@@ -88,3 +88,11 @@ Pace (2026-11-07 Mom 5 min): 21.5 s, 8 short lines, 16 shots (cut every 0.7-2.5 
 - voice: ElevenLabs eleven_v4, Alice (Clear, Engaging Educator), one file per line; credits about 240 counted (6,097 of 30,234 used, resets about 2026-12-08)
 - sources: NASA Venus facts (243-day spin, 225-day year, backwards spin, Sun rises in west), Snopes fact check (true)
 - insights to read 24-48 h later
+
+## 2026-11-22 | YouTube (account: FunWithKen YouTube) | Type 1 funny knowledge | "You're Shorter Tonight Than This Morning"
+- link: https://www.youtube.com/watch?v=UjYw9rtpekQ (public, category 27 Education, lang en, scheduled daily run); file 2026-11-22-shorter-tonight.mp4; source studio/episodes/2026-11-22-shrink (ep-shrink.js), sources + pacing brief in script.json
+- idea: Battery at the door frame at dusk: tonight's pencil mark sits below this morning's red mark ("I'm a whole centimetre SHORTER than this morning!"); Kalu: everybody shrinks about 1 cm a day; spine discs (cute faces) get squished by gravity like a sponge under books, puff back up at night in bed (x-ray strip); in space astronauts grow up to ~5 cm (Battery as an astronaut stretching); Battery: "for my dating profile I measure my height in space"; Kalu: "Or just... before breakfast." Abrupt end on Battery's face.
+- style: Desi Goggle-Eye Toon, both STANDING (kpSeated stand:1) for the first time; new set: warm sage hallway at dusk (white door frame with family pencil marks, dusk window with coral curtains, wall lamp, abstract frame, shoe rack, plant, wooden floor); spine/sponge/bed and space inserts
+- voices: ElevenLabs eleven_v4, Kalu = Roger (atempo 1.06), Battery = Armaan (English); no retakes; BGM sneaky
+- credits: 270 used (23,867 of 30,234 left, resets about 2026-12-08)
+- pace: 30.7 s, 7 lines, ~16 shots, cut on every line, 3-part science insert + space insert, punch-in on "tall", mid-line cut on L6. Research: web search (Composio not used).
