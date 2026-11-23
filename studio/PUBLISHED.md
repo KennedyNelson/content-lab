@@ -96,3 +96,11 @@ Pace (2026-11-07 Mom 5 min): 21.5 s, 8 short lines, 16 shots (cut every 0.7-2.5 
 - voices: ElevenLabs eleven_v4, Kalu = Roger (atempo 1.06), Battery = Armaan (English); no retakes; BGM sneaky
 - credits: 270 used (23,867 of 30,234 left, resets about 2026-12-08)
 - pace: 30.7 s, 7 lines, ~16 shots, cut on every line, 3-part science insert + space insert, punch-in on "tall", mid-line cut on L6. Research: web search (Composio not used).
+
+## 2026-11-23 | YouTube (account: FunWithKen YouTube) | Type 2 relatable comedy | "He Saved 8,000 by Spending 12,000"
+- link: https://www.youtube.com/watch?v=8Fswc_n7kHg (public, category 23 Comedy, lang en, scheduled daily run); file 2026-11-23-black-friday-saver.mp4; source studio/episodes/2026-11-23-sale (ep-sale.js), pacing brief in script.json
+- idea: Black Friday week. Battery walks in behind a tower of delivery boxes: "I just SAVED eight thousand in the Black Friday sale!" / Kalu: "How much did you spend?" / "Twelve thousand. But I SAVED eight!" / "On what?" / pasta maker and massage gun rise out of boxes, then a gadget he can't identify / "You don't eat pasta." / "It was SEVENTY percent off!" / Kalu: "Not buying it was a hundred percent off." / phone buzz: the same gadget, 2+1 badge, Battery whispers "...Buy two, get one free." Abrupt end on Kalu's deadpan face.
+- style: Desi Goggle-Eye Toon, Kalu CANON standing with a yellow coffee mug, Battery standing (black specs); new set: bright peach apartment entrance in the morning (open teal front door, white frame, red door mat, round brass mirror, slim console table, big window with yellow curtains and sill plants, light tiled floor); cardboard box tower (no brands); inserts: items rising out of opened boxes, phone-screen product card (mystery teal egg gadget with spiral antenna, 3 legs, blinking button)
+- voices: ElevenLabs eleven_v4, Kalu = Roger (atempo 1.06-1.08), Battery = Armaan (1.05); no retakes (burst check clean); BGM sunny; one synthesised phone buzz for story clarity
+- credits: 229 used (23,638 of 30,234 left, resets about 2026-12-08)
+- pace: 22.5 s, 9 lines, ~17 shots, cut on every line, punch-in on SAVED, two item cutaways, extreme close on "hundred percent", phone insert twist. Research: Composio scrapecreators (works again on the instant account) + web search; top relatable animated shorts are family/everyday 2D comedy at 27-40 s.
