@@ -1,0 +1,65 @@
+[
+{
+"line": 0,
+"sp": "b",
+"start": 0.1,
+"end": 3.424,
+"text": "Kalu! I just SAVED eight thousand in the Black Friday sale!"
+},
+{
+"line": 1,
+"sp": "k",
+"start": 3.624,
+"end": 4.838,
+"text": "How much did you spend?"
+},
+{
+"line": 2,
+"sp": "b",
+"start": 5.018,
+"end": 7.311,
+"text": "Twelve thousand. But I SAVED eight!"
+},
+{
+"line": 3,
+"sp": "k",
+"start": 7.471,
+"end": 8.06,
+"text": "On what?"
+},
+{
+"line": 4,
+"sp": "b",
+"start": 8.26,
+"end": 11.916,
+"text": "A pasta maker, a massage gun, and... I don't know what this is."
+},
+{
+"line": 5,
+"sp": "k",
+"start": 12.136,
+"end": 13.452,
+"text": "You don't eat pasta."
+},
+{
+"line": 6,
+"sp": "b",
+"start": 13.602,
+"end": 15.466,
+"text": "It was SEVENTY percent off!"
+},
+{
+"line": 7,
+"sp": "k",
+"start": 15.716,
+"end": 18.509,
+"text": "Not buying it was a hundred percent off."
+},
+{
+"line": 8,
+"sp": "b",
+"start": 19.259,
+"end": 21.351,
+"text": "...Buy two, get one free."
+}
+]
